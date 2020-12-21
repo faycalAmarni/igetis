@@ -2,24 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 class Contact extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {email: ''};
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-      this.setState({email: event.target.value});
-  }
-
-  handleSubmit(event) {
-   alert('Le nom a été soumis : ' + this.state.email);
-   event.preventDefault();
- }
   render () {
-    console.log(this.state.email)
+
     return (
       <div className="contact mt-125">
           <div className="container">
@@ -62,8 +46,7 @@ class Contact extends React.Component {
                 <form
                     name="sentMessage"
                     id="contactForm"
-                    novalidate="novalidate"
-                    onSubmit={this.handleSubmit} >
+                    novalidate="novalidate" >
                   <div className="control-group">
                     <input
                         type="text"
@@ -78,8 +61,6 @@ class Contact extends React.Component {
                     <input
                         type="email"
                         className="form-control"
-                        value={this.state.email}
-                        onChange={this.handleChange}
                         placeholder="Votre Email"
                         required="required"
                         data-validation-required-message="Veuillez renseigner votre email" />

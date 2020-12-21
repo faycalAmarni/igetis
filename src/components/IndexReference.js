@@ -1,32 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { Carousel } from 'antd';
 class IndexReference extends React.Component {
+
+
   render () {
     return(
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/icon-3.png" alt="Icon" />
-          </div>
-          <div class="carousel-item">
-            <img src="img/icon-2.png" alt="Icon" />
-          </div>
-          <div class="carousel-item">
-              <img src="img/icon-1.png" alt="Icon" />
-          </div>
+
+
+      <Carousel autoplay>
+        <div>
+          <h3 >1</h3>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-
+        <div>
+          <h3 >2</h3>
+        </div>
+        <div>
+          <h3 >3</h3>
+        </div>
+        <div>
+          <h3 >4</h3>
+        </div>
+      </Carousel>
 
 
 

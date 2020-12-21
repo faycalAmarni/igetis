@@ -21,10 +21,10 @@ function App() {
             <ScrollToTop>
                 <Header />
                 <Switch>
-                  <Route path="/" exact component={Home} />
-                  <Route path="/About"  component={About} />
-                  <Route path="/Service"  component={Service} />
-                  <Route path="/Contact" exact  component={Contact} />
+                  <Route exact path="/"  component={Home} />
+                  <Route exact path="/About"  component={About} />
+                  <Route exact path="/Service"  component={Service} />
+                  <Route exact path="/Contact"   component={Contact} />
                   <Route path="/"  component={NotFoundPage} />
                 </Switch>
                 <Footer/>

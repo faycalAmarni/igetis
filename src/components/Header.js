@@ -19,12 +19,12 @@ class Header extends React.Component {
                             <div className="text">
                                 <i className="far fa-clock"></i>
                                 <h2>8:00 - 9:00</h2>
-                                <p>Mon - Fri</p>
+                                <p>Lun - Ven</p>
                             </div>
                             <div className="text">
                                 <i className="fa fa-phone-alt"></i>
                                 <h2>+123 456 7890</h2>
-                                <p>For Appointment</p>
+                                <p>Pour rendez-vous</p>
                             </div>
                         </div>
                     </div>
