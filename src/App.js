@@ -1,53 +1,39 @@
+import {Switch, withRouter,  Route, BrowserRouter as Router} from "react-router-dom"
+import ScrollToTop from 'react-router-scroll-top'
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/Header"
+import Home from "./components/Home"
 import Caros from "./components/Caros"
-import Footer from "./components/Footer"
 import Contact from "./components/Contact"
 import About from "./components/About"
 import Service from "./components/Service"
+import Power from "./components/Power"
+import IndexReference from "./components/IndexReference"
+import NotFoundPage from "./components/NotFoundPage"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+
 function App() {
+
   return (
     <div className="App">
-        <Header />
-        <Caros />
+        <Router>
+            <ScrollToTop>
+                <Header />
+                <Switch>
+                  <Route path="/" exact component={Home} />
+                  <Route path="/About"  component={About} />
+                  <Route path="/Service"  component={Service} />
+                  <Route path="/Contact" exact  component={Contact} />
+                  <Route path="/"  component={NotFoundPage} />
+                </Switch>
+                <Footer/>
+            </ ScrollToTop>
+        </Router>
 
-        <div class="fact">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-item">
-                            <img src="img/icon-4.png" alt="Icon" />
-                            <h2>Qualified Team</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-item">
-                            <img src="img/icon-1.png" alt="Icon" />
-                            <h2>Individual Approach</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-item">
-                            <img src="img/icon-8.png" alt="Icon" />
-                            <h2>100% Success</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-item">
-                            <img src="img/icon-6.png" alt="Icon" />
-                            <h2>100% Satisfaction</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <About />
-        <Service />
-        <Contact />
-        <Footer />
     </div>
   );
 }
+
 
 export default App;

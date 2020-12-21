@@ -7,88 +7,82 @@ class Service extends React.Component {
       <div class="service mt-125">
           <div class="container">
               <div class="section-header">
-                  <p>Consulting Services</p>
-                  <h2>Our Best Consulting Services</h2>
+                  <h2> NOS PRESTATIONS</h2>
               </div>
               <div class="row">
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="img/icon-1.png" alt="Icon" />
-                          <h3>Business Strategy</h3>
+                          <img src="img/google.png" alt="Icon" />
+                          <h3>RÉFÉRENCEMENT GOOGLE</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Soyez visible sur Google moteur de recherche n°1 en France
                           </p>
-                          <a href="">Read More</a>
+
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="../img/icon-2.png" alt="Icon" />
-                          <h3>Project Management</h3>
+                          <img src="../img/internet.png" alt="Icon" />
+                          <h3>CRÉATION DE SITE INTERNET</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Bénéficiez d'un outil qui vous ressemble
                           </p>
-                          <a href="">Read More</a>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="../img/icon-3.png" alt="Icon" />
-                          <h3>Market Research</h3>
+                          <img src="../img/wordpress.png" alt="Icon" />
+                          <h3>CRÉATION DE BLOG</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Soyez encore plus proche de vos clients
                           </p>
-                          <a href="">Read More</a>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="../img/icon-4.png" alt="Icon" />
-                          <h3>Human Resource</h3>
+                          <img src="../img/facebook.png" alt="Icon" />
+                          <h3>PAGE FACEBOOK</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Soyez encore plus proche de vos clients
                           </p>
-                          <a href="">Read More</a>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="../img/icon-5.png" alt="Icon" />
-                          <h3>Online Business</h3>
+                          <img src="../img/video.png" alt="Icon" />
+                          <h3>VIDÉOS D'ENTREPRISE</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Attirez vos futurs clients avec une vidéo
                           </p>
-                          <a href="">Read More</a>
+
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="../img/icon-6.png" alt="Icon" />
-                          <h3>Capital Management</h3>
+                          <img src="../img/print.png" alt="Icon" />
+                          <h3>PRINT</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Communiquez autrement que sur Internet
                           </p>
-                          <a href="">Read More</a>
+
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="img/icon-7.png" alt="Icon" />
-                          <h3>Business Insurance</h3>
+                          <img src="img/googlead.png" alt="Icon" />
+                          <h3>GOOGLE ADWORDS</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Soyez en première position sur Google
                           </p>
-                          <a href="">Read More</a>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="service-item">
-                          <img src="img/icon-8.png" alt="Icon" />
-                          <h3>Online Marketing</h3>
+                          <img src="img/calendar.jpg" alt="Icon" />
+                          <h3>MEOCALENDAR</h3>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
+                              Permettez à vos clients de prendre rendez-vous chez vous
                           </p>
-                          <a href="">Read More</a>
                       </div>
                   </div>
               </div>

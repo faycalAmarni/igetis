@@ -70,7 +70,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .mt-125 {
-        margin-top: 125px;
+        margin-top: 95px;
     }
 }
 
@@ -579,7 +579,6 @@ a:focus {
     width: 100%;
     padding: 45px 0;
 }
-
 .about .section-header {
     margin-bottom: 30px;
     margin-left: 0;
@@ -633,7 +632,7 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .about .about-text a.btn {
@@ -663,18 +662,20 @@ a:focus {
 }
 
 
+
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 5px 0 15px 0;
 }
 
 .service .service-item {
     position: relative;
     width: 100%;
+    height: 82%;
     margin-bottom: 30px;
     padding: 30px;
     text-align: center;
@@ -684,18 +685,18 @@ a:focus {
 
 .service .service-item:hover {
     border-color: transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .4);
 }
 
 .service .service-item img {
-    max-height: 50px;
+    max-height: 70px;
     margin-bottom: 20px;
 }
 
 .service .service-item h3 {
     margin-bottom: 10px;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 

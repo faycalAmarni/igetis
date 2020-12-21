@@ -1,10 +1,9 @@
-import template from "../img/template.jpg";
-
+import template from "../img/blog-4.jpg";
+import {Link } from "react-router-dom"
 function Caros(){
     return (
 
       <div class="carousel">
-
           <div class="container-fluid">
               <div class="owl-carousel">
                   <div class="carousel-item">
@@ -12,17 +11,15 @@ function Caros(){
                           <img  src={template} alt="temp" />
                       </div>
                       <div class="carousel-text">
-                          <h1>Fastest Way to Achieve Success</h1>
+                          <h1>IGETIS Web</h1>
                           <p>
-                              Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
+                            Création de site internet dynamique et référencement
                           </p>
                           <div class="carousel-btn">
-                              <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
+                              <Link to="/Contact"><a class="btn" href=""><i class="fa fa-email"></i>Nous contacter</a></Link>
                           </div>
                       </div>
                   </div>
-
-
               </div>
           </div>
       </div>

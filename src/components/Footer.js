@@ -8,9 +8,9 @@ function Footer() {
                     <div class="row">
                         <div class="col-md-6">
                             <div class="footer-contact">
-                                <h2>Our Head Office</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                                <h2>Notre siège social</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>123 Rue, Paris, France</p>
+                                <p><i class="fa fa-phone-alt"></i>+33766951453</p>
                                 <p><i class="fa fa-envelope"></i>info@example.com</p>
                                 <div class="footer-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
@@ -23,11 +23,9 @@ function Footer() {
                         </div>
                         <div class="col-md-6">
                             <div class="footer-link">
-                                <h2>Quick Links</h2>
-                                <a href="">Terms of use</a>
-                                <a href="">Privacy policy</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
+                                <h2>Liens rapides</h2>
+                                <a href="">Conditions d'utilisation</a>
+                                <a href="">Politique de confidentialité</a>
                                 <a href="">FQAs</a>
                             </div>
                         </div>
@@ -50,10 +48,10 @@ function Footer() {
         <div class="container copyright">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                    <p>&copy; <a href="#">IGETIS</a>,  Tous droits réservés.</p>
                 </div>
                 <div class="col-md-6">
-                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p></p>
                 </div>
             </div>
         </div>

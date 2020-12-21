@@ -2,73 +2,123 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 class Contact extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {email: ''};
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+      this.setState({email: event.target.value});
+  }
+
+  handleSubmit(event) {
+   alert('Le nom a été soumis : ' + this.state.email);
+   event.preventDefault();
+ }
   render () {
+    console.log(this.state.email)
     return (
-      <div class="contact mt-125">
-          <div class="container">
-              <div class="section-header">
-                  <p>Get In Touch</p>
-                  <h2>Get In Touch For Any Query</h2>
-              </div>
-              <div class="row align-items-center">
-                  <div class="col-md-5">
-                      <div class="contact-info">
-                          <div class="contact-icon">
-                              <i class="fa fa-map-marker-alt"></i>
-                          </div>
-                          <div class="contact-text">
-                              <h3>Our Head Office</h3>
-                              <p>123 Street, New York, USA</p>
-                          </div>
-                      </div>
-                      <div class="contact-info">
-                          <div class="contact-icon">
-                              <i class="fa fa-phone-alt"></i>
-                          </div>
-                          <div class="contact-text">
-                              <h3>Call for Help</h3>
-                              <p>+012 345 6789</p>
-                          </div>
-                      </div>
-                      <div class="contact-info">
-                          <div class="contact-icon">
-                              <i class="fa fa-envelope"></i>
-                          </div>
-                          <div class="contact-text">
-                              <h3>Email for Information</h3>
-                              <p>info@example.com</p>
-                          </div>
-                      </div>
+      <div className="contact mt-125">
+          <div className="container">
+            <div className="section-header">
+              <h2>Contactez-nous pour toute information</h2>
+            </div>
+          <div className="row align-items-center">
+            <div className="col-md-5">
+              <div className="contact-info">
+                  <div className="contact-icon">
+                    <i className="fa fa-map-marker-alt" />
                   </div>
-                  <div class="col-md-7">
-                      <div class="contact-form">
-                          <div id="success"></div>
-                          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                              <div class="control-group">
-                                  <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                              <div class="control-group">
-                                  <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                              <div class="control-group">
-                                  <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                              <div class="control-group">
-                                  <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                  <p class="help-block text-danger"></p>
-                              </div>
-                              <div>
-                                  <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                              </div>
-                          </form>
-                      </div>
+                  <div className="contact-text">
+                    <h3>Notre siège social</h3>
+                    <p>123 Rue,  Paris, FRANCE</p>
                   </div>
               </div>
+              <div className="contact-info">
+                <div className="contact-icon">
+                  <i className="fa fa-phone-alt" />
+                </div>
+                <div className="contact-text">
+                  <h3>Téléphone</h3>
+                  <p>+012 345 6789</p>
+                </div>
+              </div>
+              <div className="contact-info">
+                  <div className="contact-icon">
+                    <i className="fa fa-envelope" />
+                  </div>
+                  <div className="contact-text">
+                    <h3>Email</h3>
+                    <p>info@example.com</p>
+                  </div>
+              </div>
+            </div>
+            <div className="col-md-7">
+              <div className="contact-form">
+                <div id="success" />
+                <form
+                    name="sentMessage"
+                    id="contactForm"
+                    novalidate="novalidate"
+                    onSubmit={this.handleSubmit} >
+                  <div className="control-group">
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="name"
+                        placeholder="Votre Nom"
+                        required="required"
+                        data-validation-required-message="Veuillez renseigner votre nom" />
+                    <p className="help-block text-danger" />
+                  </div>
+                  <div className="control-group">
+                    <input
+                        type="email"
+                        className="form-control"
+                        value={this.state.email}
+                        onChange={this.handleChange}
+                        placeholder="Votre Email"
+                        required="required"
+                        data-validation-required-message="Veuillez renseigner votre email" />
+                    <p className="help-block text-danger" />
+                  </div>
+                  <div className="control-group">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="subject"
+                      placeholder="Sujet"
+                      required="required"
+                      data-validation-required-message="Veuillez renseigner le sujet" />
+                    <p className="help-block text-danger" />
+                  </div>
+                  <div className="control-group">
+                    <textarea
+                      className="form-control"
+                      id="message"
+                      placeholder="Message"
+                      required="required"
+                      data-validation-required-message="Veuillez renseigner un Message" />
+                    <p className="help-block text-danger" />
+                  </div>
+                  <div>
+                    <button
+                      className="btn"
+                      type="submit"
+                      id="sendMessageButton">
+                      Envoyer
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
+
 
     )
   }
