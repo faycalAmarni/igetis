@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Caros from "./Caros"
-import Power from "./Power"
-import About from "./About"
-import Service from "./Service"
+import ContactHome from "./ContactHome"
+import AboutHome from "./AboutHome"
+import ServiceHome from "./ServiceHome"
 import IndexReference from "./IndexReference"
 
 class Home extends React.Component {
@@ -12,9 +12,9 @@ class Home extends React.Component {
         <div>
           <Caros />
           <IndexReference />
-          <About />
-          <Service />
-
+          <AboutHome />
+          <ServiceHome />
+          <ContactHome />
         </div>
       )
   }

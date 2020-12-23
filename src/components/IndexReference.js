@@ -17,7 +17,7 @@ import React from 'react';
 	    					</div>
     					</div>
     					<h2>Visibilité</h2>
-  						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+  						<p>Assuarance d'une parfaite visibilité sur le Web.</p>
     				</div>
     			</div>
 
