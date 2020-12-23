@@ -7,7 +7,6 @@ class Header extends React.Component {
    }
   render () {
     const path = this.props.location.pathname
-    console.log("Hello "+path);
     return (
       <div>
 
@@ -44,7 +43,7 @@ class Header extends React.Component {
 
        <div className="navbar navbar-expand-lg bg-dark navbar-dark">
            <div className="container-fluid">
-               <a href="index.html" className="navbar-brand">IGETIS</a>
+               <Link to="/"  className="navbar-brand">IGETIS</Link>
                <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                    <span className="navbar-toggler-icon"></span>
                </button>

@@ -11,10 +11,10 @@ class Home extends React.Component {
       return(
         <div>
           <Caros />
-          <Power />
+          <IndexReference />
           <About />
           <Service />
-          <IndexReference />
+
         </div>
       )
   }

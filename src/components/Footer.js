@@ -33,13 +33,13 @@ function Footer() {
                 </div>
                 <div className="col-lg-5">
                     <div className="footer-newsletter">
-                        <h2>Nous Rejoindre </h2>
+                        <h2>La Newsletter</h2>
                         <p>
-
+                          Inscrivez-vous pour recevoir notre lettre d'informations :
                         </p>
                         <div className="form">
-                            <input className="form-control" placeholder="Adresse Mail" />
-                            <button className="btn">Submit</button>
+                            <input className="form-control" placeholder="Entrer votre e-mail" />
+                            <button className="btn">Envoyer</button>
                         </div>
                     </div>
                 </div>

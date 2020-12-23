@@ -1,5 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Formik, Form, Field } from 'formik';
+import * as Yup from 'yup';
+
+
+const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+const SignupSchema = Yup.object().shape({
+   nom: Yup.string().min(2, ' ').max(50, ' ').required(' '),
+   prenom: Yup.string().min(2, ' ').max(50, ' ').required(' '),
+   email: Yup.string().email('email Invalid').required(' '),
+   sujet : Yup.string().required(" "),
+   message : Yup.string().min(20, ' ').required(" "),
+   telephone: Yup.string().matches(phoneRegExp, 'Phone number is not valid')
+ });
 
 class Contact extends React.Component {
   render () {
@@ -43,57 +56,102 @@ class Contact extends React.Component {
             <div className="col-md-7">
               <div className="contact-form">
                 <div id="success" />
-                <form
-                    name="sentMessage"
-                    id="contactForm"
-                    novalidate="novalidate" >
-                  <div className="control-group">
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="name"
-                        placeholder="Votre Nom"
-                        required="required"
-                        data-validation-required-message="Veuillez renseigner votre nom" />
-                    <p className="help-block text-danger" />
-                  </div>
-                  <div className="control-group">
-                    <input
-                        type="email"
-                        className="form-control"
-                        placeholder="Votre Email"
-                        required="required"
-                        data-validation-required-message="Veuillez renseigner votre email" />
-                    <p className="help-block text-danger" />
-                  </div>
-                  <div className="control-group">
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="subject"
-                      placeholder="Sujet"
-                      required="required"
-                      data-validation-required-message="Veuillez renseigner le sujet" />
-                    <p className="help-block text-danger" />
-                  </div>
-                  <div className="control-group">
-                    <textarea
-                      className="form-control"
-                      id="message"
-                      placeholder="Message"
-                      required="required"
-                      data-validation-required-message="Veuillez renseigner un Message" />
-                    <p className="help-block text-danger" />
-                  </div>
-                  <div>
-                    <button
-                      className="btn"
-                      type="submit"
-                      id="sendMessageButton">
-                      Envoyer
-                    </button>
-                  </div>
-                </form>
+                  <Formik
+                    initialValues={{
+                      nom: '',
+                      prenom: '',
+                      email: '',
+                      telephone: '',
+                      sujet: '',
+                      message : '',
+                    }}
+                    validationSchema={SignupSchema}
+                    onSubmit={(values, actions) => {
+                      // same shape as initial values
+                       alert("submit")
+                       console.log(values);
+                       actions.resetForm();
+                    }}
+                  >
+                    {({ errors, touched}) => (
+                      <Form>
+                        <div class="row">
+                            <div className="col-md-6 control-group ">
+                              <Field
+                                  placeholder="Nom*"
+                                  className="form-control"
+                                  name="nom"
+                                  style={errors.nom && touched.nom ? {borderColor: "#BE4B49", borderWidth: 2} : {}}
+                               />
+                             <div className="help-block text-danger"> {errors.nom && touched.nom ? errors.nom  : null}</div><br/>
+                            </div>
+                            <div className="col-md-6 control-group ">
+                              <Field
+                                  name="prenom"
+                                  className="form-control"
+                                  placeholder="Prénom*"
+                                  style={errors.prenom && touched.prenom ? {borderColor: "#BE4B49", borderWidth: 2} : {}}
+                             />
+                           <div className="help-block text-danger"> {errors.prenom && touched.prenom ? errors.prenom  : null}</div><br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div className="control-group col-md-6">
+                            <Field
+                                name="email"
+                                placeholder="Email*"
+                                className="form-control"
+                                style={errors.email && touched.email ? {borderColor: "#BE4B49", borderWidth: 2} : {}}
+                            />
+
+                          <div className="help-block text-danger"> {errors.email && touched.email ? errors.email : null}</div><br/>
+                          </div>
+                          <div className="control-group col-md-6">
+                            <Field
+                                placeholder="Téléphone"
+                                name="telephone"
+                                className="form-control"
+                                style={errors.telephone && touched.telephone ? {borderColor: "#BE4B49", borderWidth: 2} : {}}
+                            />
+                            <p className="help-block text-danger" />
+                          </div>
+                        </div>
+                        <div className="control-group">
+                          <Field
+                            as="select"
+                            name="sujet"
+                            placeholder="Sujet"
+                            className="form-control"
+                            style={errors.sujet && touched.sujet ? {borderColor: "#BE4B49", borderWidth: 2} : {}}
+                            >
+                            <option selected disabled  value="">Sujet*</option>
+                            <option value="ddr">Demande de renseignements</option>
+                            <option value="ddd">Demande de devis</option>
+                        </Field>
+                        <p className="help-block text-danger" />
+                      </div>
+                        <div className="control-group">
+                          <Field
+                            as="textarea"
+                            name="message"
+                            className="form-control"
+                            style={errors.message && touched.message ? {borderColor: "#BE4B49", borderWidth: 2} : {}}
+                            placeholder="Message*"
+                          />
+
+                        <div className="help-block text-danger"> {errors.message && touched.message ? errors.message  : null}</div><br/>
+                        </div>
+                        <div>
+                          <button
+                            className="btn"
+                            type="submit"
+                            >
+                            Envoyer
+                          </button>
+                        </div>
+                      </Form>
+                    )}
+                  </Formik>
               </div>
             </div>
           </div>

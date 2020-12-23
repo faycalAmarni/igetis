@@ -1,32 +1,57 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Carousel } from 'antd';
-class IndexReference extends React.Component {
+import React from 'react';
 
+  const IndexReference = () => (
 
-  render () {
-    return(
-
-
-      <Carousel autoplay>
-        <div>
-          <h3 >1</h3>
+    <section class="ftco-section" >
+    	<div class="container">
+        <div class="section-header" style={{marginTop: -40, marginBottom: 60}}>
+            <h2> NOTRE PUISSANCE</h2>
         </div>
-        <div>
-          <h3 >2</h3>
-        </div>
-        <div>
-          <h3 >3</h3>
-        </div>
-        <div>
-          <h3 >4</h3>
-        </div>
-      </Carousel>
+    		<div class="row" style={{justifyContent: 'space-between', marginBottom: 5}}>
+    			<div class="col-md-4 d-flex align-items-stretch ">
+    				<div class="services-2 text-center">
+    					<div class="icon-wrap">
+    						<div class="number d-flex align-items-center justify-content-center"><span>01</span></div>
+	    					<div class="icon d-flex align-items-center justify-content-center">
+	    						<img src="img/icon-2.png" alt="Icon" />
+	    					</div>
+    					</div>
+    					<h2>Visibilité</h2>
+  						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+    				</div>
+    			</div>
+
+          <div class="col-md-4 d-flex align-items-stretch ">
+            <div class="services-2 text-center">
+              <div class="icon-wrap">
+                <div class="number d-flex align-items-center justify-content-center"><span>02</span></div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <img src="img/icon-3.png" alt="Icon" />
+                </div>
+              </div>
+              <h2>Analyse</h2>
+              <p>Un outil d’analyse et suivi est mis à disposition afin de mesurer les impact du site.</p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-stretch ">
+            <div class="services-2 text-center">
+              <div class="icon-wrap">
+                <div class="number d-flex align-items-center justify-content-center"><span>03</span></div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <img src="img/icon-9.png" alt="Icon" />
+                </div>
+              </div>
+              <h2>Ciblage</h2>
+              <p>Igetis cible les meilleurs technologies et les meilleurs cannaux digitaux afin dapporter un meilleur impact sur les lead.</p>
+            </div>
+          </div>
 
 
 
-    )
-  }
-}
+
+    		</div>
+    	</div>
+    </section>
+ );
 
 export default IndexReference;
