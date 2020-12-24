@@ -1,20 +1,19 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Caros from "./Caros"
-import Power from "./Power"
-import About from "./About"
-import Service from "./Service"
-import IndexReference from "./IndexReference"
+import ContactHome from "./contact/ContactHome"
+import NosPrestation from "./prestation/NosPrestation"
+import Puissance from "./about/Puissance"
+import Apropos from './about/Apropos'
 
 class Home extends React.Component {
   render () {
       return(
         <div>
           <Caros />
-          <Power />
-          <About />
-          <Service />
-          <IndexReference />
+          <Puissance />
+          <Apropos />
+          <NosPrestation />
+          <ContactHome />
         </div>
       )
   }

@@ -1,4 +1,4 @@
-import template from "../img/blog-4.jpg";
+import template from "../assets/img/blog-4.jpg";
 import {Link } from "react-router-dom"
 function Caros(){
     return (

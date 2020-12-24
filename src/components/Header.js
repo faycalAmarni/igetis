@@ -7,7 +7,6 @@ class Header extends React.Component {
    }
   render () {
     const path = this.props.location.pathname
-    console.log("Hello "+path);
     return (
       <div>
 
@@ -44,7 +43,7 @@ class Header extends React.Component {
 
        <div className="navbar navbar-expand-lg bg-dark navbar-dark">
            <div className="container-fluid">
-               <a href="index.html" className="navbar-brand">IGETIS</a>
+               <Link to="/"  className="navbar-brand">IGETIS</Link>
                <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                    <span className="navbar-toggler-icon"></span>
                </button>
@@ -53,9 +52,9 @@ class Header extends React.Component {
                    <div className="navbar-nav ml-auto">
                        <NavLink to="/"><a  className={"nav-item nav-link "+ (path=='/' ? 'active' : '')}>Home</a></NavLink>
                        <NavLink to="/About"><a  className={"nav-item nav-link "+ (path=='/About' ? 'active' : '')}>À PROPOS</a></NavLink>
-                       <NavLink to="/Service"><a  className={"nav-item nav-link "+ (path=='/Service' ? 'active' : '')}>PRESTATIONS</a></NavLink>
+                       <NavLink to="/Prestation"><a  className={"nav-item nav-link "+ (path=='/Prestation' ? 'active' : '')}>PRESTATIONS</a></NavLink>
                        <NavLink to="/NotFoundPage"><a  className="nav-item nav-link">RÉFÉRENCES</a></NavLink>
-                       <NavLink to="/"><a  className="nav-item nav-link">FAQ</a></NavLink>
+                       <NavLink to="/Faq"><a  className={"nav-item nav-link "+ (path=='/Faq' ? 'active' : '')}>FAQ</a></NavLink>
                        <Link to="/Contact"><a href="./Contact.js" className={"nav-item nav-link "+ (path=='/Contact' ? 'active' : '')}>Contact</a></Link>
                    </div>
                    </div>
