@@ -5,6 +5,8 @@ import NosPrestation from './prestation/NosPrestation';
 import Puissance from './about/Puissance';
 import Apropos from './about/Apropos';
 import Testimonial from './Testimonial';
+import CreationReferencement from './about/CreationReferencement';
+import Referencement from './referencement/Referencement';
 
 class Home extends React.Component {
   render() {
@@ -12,9 +14,11 @@ class Home extends React.Component {
       <div>
         <Caros />
         <Puissance />
+        <CreationReferencement />
         <Apropos />
         <NosPrestation />
         <Testimonial />
+        <Referencement />
         <ContactHome />
       </div>
     );

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Apropos = (props) => {
   return (
@@ -6,17 +6,27 @@ const Apropos = (props) => {
       <div className="section-header">
         <h2>À PROPOS DE IGETIS</h2>
       </div>
-      <div className="about-text ">
+      <div className="about-text">
         <p>
-          L’effectif de notre société grandit de jour en jour afin de vous proposer toujours plus de possibilités et de rester à l’écoute de vos attentes. La société IGETIS compte à ce jour un grand nombre de clients qui n’ont pas hésité à nous faire confiance pour la création de leur projet.
+          L’effectif de notre société grandit de jour en jour afin de vous
+          proposer toujours plus de possibilités et de rester à l’écoute de vos
+          attentes. La société IGETIS compte à ce jour un grand nombre de
+          clients qui n’ont pas hésité à nous faire confiance pour la création
+          de leur projet.
         </p>
         <p>
-          Soucieux de l’image de votre entreprise, notre agence met à votre disposition nos compétences pour vous offrir des solutions innovantes, adaptées à votre image et votre besoin. Nous vous accompagnons tout au long de votre projet et vous proposons de booster votre activité sur les différents médias.
+          Soucieux de l’image de votre entreprise, notre agence met à votre
+          disposition nos compétences pour vous offrir des solutions innovantes,
+          adaptées à votre image et votre besoin. Nous vous accompagnons tout au
+          long de votre projet et vous proposons de booster votre activité sur
+          les différents médias.
         </p>
-        <a className="btn" href>Learn More</a>
+        <a className="btn" href>
+          Learn More
+        </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Apropos
+export default Apropos;
