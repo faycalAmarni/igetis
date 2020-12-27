@@ -1006,6 +1006,11 @@ a:focus {
 }
 
 
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .testimonial .owl-nav .owl-prev:active,
 .testimonial .owl-nav .owl-next:active {
     border-style: none !important;
