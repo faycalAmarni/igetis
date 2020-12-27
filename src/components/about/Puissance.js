@@ -65,6 +65,41 @@ const Puissance = (props) => {
             </div>
           </div>
         </div>
+
+        <div class="row" style={{ marginBottom: 5, marginTop: 30 }}>
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <div class="services-2 text-center">
+              <div class="icon-wrap">
+                <div class="number d-flex align-items-center justify-content-center">
+                  <span>01</span>
+                </div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <img src={visibilite} alt="Icon" />
+                </div>
+              </div>
+              <h2>Visibilité</h2>
+              <p>Assuarance d'une parfaite visibilité sur le Web.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="services-2 text-center">
+              <div class="icon-wrap">
+                <div class="number d-flex align-items-center justify-content-center">
+                  <span>02</span>
+                </div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <img src={analyse} alt="Icon" />
+                </div>
+              </div>
+              <h2>Analyse</h2>
+              <p>
+                Un outil d’analyse et suivi est mis à disposition afin de
+                mesurer les impact du site.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
