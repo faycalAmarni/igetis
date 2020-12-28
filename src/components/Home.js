@@ -7,12 +7,13 @@ import Apropos from './about/Apropos';
 import Testimonial from './Testimonial';
 import CreationReferencement from './about/CreationReferencement';
 import Referencement from './referencement/Referencement';
-
+import Service from './prestation/Service';
 class Home extends React.Component {
   render() {
     return (
       <div>
         <Caros />
+        <Service />
         <Puissance />
         <CreationReferencement />
         <Apropos />

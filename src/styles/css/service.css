@@ -1,0 +1,11 @@
+.serv{
+  display: flex;
+  margin-top: -45px;
+  justify-content:space-around;
+  background-color: #007bf;
+
+}
+
+.serv item{
+  height: 400px;
+}

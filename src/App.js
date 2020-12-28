@@ -5,8 +5,6 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-import logo from './logo.svg';
-// import './App.css';
 import Home from './components/Home';
 import Caros from './components/Caros';
 import Contact from './components/contact/Contact';
@@ -16,6 +14,7 @@ import Faq from './components/faq/Faq';
 import NotFoundPage from './components/NotFoundPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Legale from "./components/Legale"
 
 function App() {
   return (
@@ -29,6 +28,7 @@ function App() {
             <Route exact path="/Prestation" component={Prestation} />
             <Route exact path="/Faq" component={Faq} />
             <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/Legale" component={Legale} />
             <Route path="/" component={NotFoundPage} />
           </Switch>
           <Footer />

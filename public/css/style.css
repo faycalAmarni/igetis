@@ -670,7 +670,7 @@ a:focus {
 .service .service-item {
     position: relative;
     width: 100%;
-    height: 82%;
+    height: 90%;
     margin-bottom: 30px;
     padding: 30px;
     text-align: center;
@@ -719,7 +719,7 @@ a:focus {
 
 .service .service-item:hover a.btn {
     color: #092a49;
-    background: #1d2434;
+
     /* border-color: #1d2434; */
 }
 
