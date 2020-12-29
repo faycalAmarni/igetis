@@ -66,7 +66,7 @@ const Puissance = (props) => {
           </div>
         </div>
 
-        <div class="row" style={{ marginBottom: 5, marginTop: 30 }}>
+        {/* <div class="row" style={{ marginBottom: 5, marginTop: 30 }}>
           <div class="col-md-2"></div>
           <div class="col-md-4">
             <div class="services-2 text-center">
@@ -99,7 +99,7 @@ const Puissance = (props) => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -14,7 +14,7 @@ const Apropos = (props) => {
             </h4>
           </div>
           <div className="about-text apropos_content">
-            <p>
+            <p style={{ alignItems: 'center' }}>
               L’effectif de notre société grandit de jour en jour afin de vous
               proposer toujours plus de possibilités et de rester à l’écoute de
               vos attentes. La société IGETIS compte à ce jour un grand nombre
@@ -30,7 +30,7 @@ const Apropos = (props) => {
             </p>
             <div className="text-center">
               <a className="btn" href>
-                Learn More
+                À PROPOS
               </a>
             </div>
           </div>

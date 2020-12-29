@@ -13,10 +13,19 @@
 
 .appropos_header h4{
     color:#54595F;
+    font-size: 16px;
+    /* margin-top: 20px; */
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
     
 }
 
 .apropos_content{
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+    align-items: center;
 
 }
 

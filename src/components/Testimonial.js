@@ -13,7 +13,7 @@ const Testimonial = () => {
     <div class="testimonial">
       <div class="container-fluid">
         <div className="row title" style={{ marginBottom: '20px' }}>
-          <div class="col-sm-12 btn btn-info">
+          <div class="col-sm-12 ">
             Owl Carousel with Auto Play Property In React Application
           </div>
         </div>

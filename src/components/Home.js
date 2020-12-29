@@ -15,8 +15,9 @@ class Home extends React.Component {
         <Caros />
         <Puissance />
         <CreationReferencement />
-        <Apropos />
+
         <NosPrestation />
+        <Apropos />
         <Testimonial />
         <Referencement />
         <ContactHome />
