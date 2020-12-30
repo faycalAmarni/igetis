@@ -152,5 +152,9 @@
 	margin-bottom: 0;
 	color: #252525;
     line-height: 20px;
-    
+} 
+.referencement_btn{
+
+  border: none !important;
+
 }
