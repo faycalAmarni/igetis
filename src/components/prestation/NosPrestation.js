@@ -1,11 +1,11 @@
 import React from 'react';
-import refgoogle from '../../assets/img/google.png';
-import creationSite from '../../assets/img/internet.png';
-import creationBlog from '../../assets/img/wordpress.png';
-import facebbok from '../../assets/img/facebook.png';
+import refgoogle from '../../assets/img/google1.png';
+import creationSite from '../../assets/img/internet1.png';
+import creationBlog from '../../assets/img/wordpress1.png';
+import facebbok from '../../assets/img/facebook1.png';
 import video from '../../assets/img/video.png';
-import print from '../../assets/img/print.png';
-import googlead from '../../assets/img/googlead.png';
+import print from '../../assets/img/print.svg';
+import googlead from '../../assets/img/google-ads.png';
 import calendar from '../../assets/img/calendar.jpg';
 
 import '../../styles/css/nosPrestation.css';
@@ -110,12 +110,9 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">Commitment to Security</a>
+                  <a href="#">Création De Site Internet</a>
                 </h5>
-                <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
-                </p>
+                <p>Bénéficiez d'un outil qui vous ressemble.</p>
               </div>
             </div>
           </div>
@@ -126,12 +123,9 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">Passion for Privacy</a>
+                  <a href="#">Création De Blog</a>
                 </h5>
-                <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
-                </p>
+                <p>Soyez encore plus proche de vos clients.</p>
               </div>
             </div>
           </div>
@@ -142,12 +136,9 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">Employee Owned</a>
+                  <a href="#">Page Facebook</a>
                 </h5>
-                <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
-                </p>
+                <p>Soyez encore plus proche de vos clients.</p>
               </div>
             </div>
           </div>
@@ -158,12 +149,9 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">24/7 Support</a>
+                  <a href="#">Print</a>
                 </h5>
-                <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
-                </p>
+                <p>Communiquez autrement que sur Internet.</p>
               </div>
             </div>
           </div>
@@ -174,12 +162,9 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">100% Uptime Guaranteed</a>
+                  <a href="#">Google Adwords</a>
                 </h5>
-                <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
-                </p>
+                <p>Soyez en première position sur Google.</p>
               </div>
             </div>
           </div>
