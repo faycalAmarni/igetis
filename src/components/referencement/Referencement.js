@@ -16,7 +16,7 @@ const Referencement = () => {
       </div>
       <div >
         <div class="row">
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={one} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -25,7 +25,7 @@ const Referencement = () => {
                         </div>
                     </div>
                 </div>
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={two} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -34,7 +34,7 @@ const Referencement = () => {
                         </div>
                     </div>
                 </div>
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={three} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -43,7 +43,7 @@ const Referencement = () => {
                         </div>
                     </div>
                 </div>
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={four} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -54,7 +54,7 @@ const Referencement = () => {
                 </div>
         </div>
         <div class="row">
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={five} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -63,7 +63,7 @@ const Referencement = () => {
                         </div>
                     </div>
                 </div>
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={six} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -72,7 +72,7 @@ const Referencement = () => {
                         </div>
                     </div>
                 </div>
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={seven} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">
@@ -81,7 +81,7 @@ const Referencement = () => {
                         </div>
                     </div>
                 </div>
-                <div class="single_gallery_item col-md-3 col-sm-6">
+                <div class="single_gallery_item col-md-3 ">
                     <img src={eight} alt="" />
                     <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                         <div class="port-hover-text text-center">

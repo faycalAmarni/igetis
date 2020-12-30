@@ -2812,7 +2812,7 @@ form.search-box .input-form .world-form i{
     -o-transition:.4s;
     transition:.4s;
     z-index:1;
-    margin-bottom:90px
+    margin-bottom:40px
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
     .team-area .single-cat{

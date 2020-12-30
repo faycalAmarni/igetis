@@ -1,12 +1,7 @@
 
 .single_gallery_item {
-    width: 25%;
-    display: inline-block;
-    float: left;
     z-index: 3;
-    position: relative;
     overflow: hidden;
-    margin : 0px;
 }
 
 .single_gallery_item > img {

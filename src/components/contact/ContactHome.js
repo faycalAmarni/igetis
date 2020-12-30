@@ -63,8 +63,17 @@ const ContactHome = (props) => {
               validationSchema={SignupSchema}
               onSubmit={(values, actions) => {
                 // same shape as initial values
-                alert('submit');
+
                 console.log(values);
+                window.emailjs.send("service_90prgkk","template_4catidt", {
+                   email: values.email,
+                   nom: values.nom,
+                   prenom : values.prenom,
+                   telephone : values.telephone,
+                   message: values.message,
+                   sujet : values.sujet
+                 },
+                 'user_C2QWfjr4NpYSiQyQHTD48',);
                 actions.resetForm();
               }}
             >
@@ -154,8 +163,8 @@ const ContactHome = (props) => {
                       <option selected disabled value="">
                         Sujet*
                       </option>
-                      <option value="ddr">Demande de renseignements</option>
-                      <option value="ddd">Demande de devis</option>
+                      <option value="Demande de renseignements">Demande de renseignements</option>
+                      <option value="Demande de devis">Demande de devis</option>
                     </Field>
                     <p className="help-block text-danger" />
                   </div>
