@@ -1506,6 +1506,10 @@ section{
     background: #092a49;
 }
 
+.footer .footer-contact p {
+  color: #fff !important
+}
+
 .footer .footer-contact,
 .footer .footer-link,
 .footer .footer-newsletter {
@@ -1714,7 +1718,7 @@ section{
 
 .hero-wrap {
   width: 100%;
-  height: 850px;
+  height: 100%;
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1726,21 +1730,12 @@ section{
     position: relative; }
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
-      height: 500px;
+      height: 100%;
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       content: '';
-      opacity: 0.7;
-      background: #0791F6;
-      background: -moz-linear-gradient(45deg, #0791F6 0%, rgba(7, 145, 246, 0) 100%);
-      background: -webkit-gradient(left bottom, right top, color-stop(0%, #0791F6), color-stop(100%, rgba(7, 145, 246, 0)));
-      background: -webkit-linear-gradient(45deg, #0791F6 0%, rgba(7, 145, 246, 0) 100%);
-      background: -o-linear-gradient(45deg, #0791F6 0%, rgba(7, 145, 246, 0) 100%);
-      background: -ms-linear-gradient(45deg, #0791F6 0%, rgba(7, 145, 246, 0) 100%);
-      background: linear-gradient(45deg, #0791F6 0%, rgba(7, 145, 246, 0) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0791F6', endColorstr='#0791F6', GradientType=1 ); }
-    .hero-wrap.hero-wrap-2 .slider-text {
+        .hero-wrap.hero-wrap-2 .slider-text {
       height: 400px !important; }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from "../../assets/img/carousel-3.jpg"
+import Background from "../../assets/img/breadcumb.png"
 import Apropos from "./Apropos"
 import NousChoisir from "./NousChoisir"
 import Puissance from "./Puissance"
@@ -7,7 +7,7 @@ import Puissance from "./Puissance"
 const About = (props) => {
   return (
 
-      <div className="about" >
+      <div  >
                   <section class="hero-wrap hero-wrap-2" style={{backgroundImage: `url(${Background})`}} data-stellar-background-ratio="0.5">
                     <div class="overlay"></div>
                     <div class="container">

@@ -1,93 +1,99 @@
 import React from 'react';
-import latest from '../../assets/img/latest-1.png';
-// import '../../styles/css/referencement.css';
+import one from '../../assets/img/reference/1.jpg';
+import two from '../../assets/img/reference/2.jpg';
+import three from '../../assets/img/reference/3.jpg';
+import four from '../../assets/img/reference/4.jpg';
+import five from '../../assets/img/reference/5.jpg';
+import six from '../../assets/img/reference/6.jpg';
+import seven from '../../assets/img/reference/7.jpg';
+import eight from '../../assets/img/reference/8.jpg';
+import '../../styles/css/referencement.css';
 const Referencement = () => {
   return (
-    <div class="blog container-fluid mb-30">
-      {/* <div class="container"> */}
-      <div class="section-header">
-        {/* <p>Référencement</p> */}
-        <h2>Référencement</h2>
+    <section class="">
+      <div className="section-header">
+        <h2>NOS REFERENCES</h2>
       </div>
-      <div class="blog-carousel row">
-        <div class="blog-item col-lg-4">
-          <div class="blog-img">
-            <img src={latest} alt="Blog" />
-          </div>
-          <div class="blog-content">
-            <h2 class="blog-title">Dashboards</h2>
-            <div class="blog-meta">
-              <i class="fa fa-list-alt"></i>
-              <a href="">Category</a>
-              <i class="fa fa-calendar-alt"></i>
-              <p>01-Jan-2045</p>
-            </div>
-            <div class="blog-text">
-              <p>
-                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur
-                {/* facili ornare velit non vulpte liqum metus tortor. Lorem ipsum
-                  dolor sit amet elit. Neca pretim miura bitur facili ornare
-                  velit non vulpte liqum metus tortor */}
-              </p>
-              <a class="btn referencement_btn" href="">
-                Read More
-              </a>
+      <div>
+        <div class="row">
+          <div class="single_gallery_item col-md-3 ">
+            <img src={one} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="blog-item col-lg-4">
-          <div class="blog-img">
-            <img src={latest} alt="Blog" />
-          </div>
-          <div class="blog-content">
-            <h2 class="blog-title">Vetrines</h2>
-            <div class="blog-meta">
-              <i class="fa fa-list-alt"></i>
-              <a href="">Category</a>
-              <i class="fa fa-calendar-alt"></i>
-              <p>01-Jan-2045</p>
+          <div class="single_gallery_item col-md-3 ">
+            <img src={two} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
             </div>
-            <div class="blog-text">
-              <p>
-                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur
-                {/* facili ornare velit non vulpte liqum metus tortor. Lorem ipsum
-                  dolor sit amet elit. Neca pretim miura bitur facili ornare
-                  velit non vulpte liqum metus tortor */}
-              </p>
-              <a class="btn" href="">
-                Read More
-              </a>
+          </div>
+          <div class="single_gallery_item col-md-3 ">
+            <img src={three} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
+            </div>
+          </div>
+          <div class="single_gallery_item col-md-3 ">
+            <img src={four} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="blog-item col-lg-4">
-          <div class="blog-img">
-            <img src={latest} alt="Blog" />
-          </div>
-          <div class="blog-content">
-            <h2 class="blog-title">E-commerce</h2>
-            <div class="blog-meta">
-              <i class="fa fa-list-alt"></i>
-              <a href="">Category</a>
-              <i class="fa fa-calendar-alt"></i>
-              <p>01-Jan-2045</p>
+        <div class="row">
+          <div class="single_gallery_item col-md-3 ">
+            <img src={five} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
             </div>
-            <div class="blog-text">
-              <p>
-                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur
-                {/* facili ornare velit non vulpte liqum metus tortor. Lorem ipsum
-                  dolor sit amet elit. Neca pretim miura bitur facili ornare
-                  velit non vulpte liqum metus tortor */}
-              </p>
-              <a class="btn" href="">
-                Read More
-              </a>
+          </div>
+          <div class="single_gallery_item col-md-3 ">
+            <img src={six} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
+            </div>
+          </div>
+          <div class="single_gallery_item col-md-3 ">
+            <img src={seven} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
+            </div>
+          </div>
+          <div class="single_gallery_item col-md-3 ">
+            <img src={eight} alt="" />
+            <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
+              <div class="port-hover-text text-center">
+                <h4>DFR Corp. Branding</h4>
+                <a href="#">Brand Identity</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/* </div> */}
-    </div>
+    </section>
   );
 };
 

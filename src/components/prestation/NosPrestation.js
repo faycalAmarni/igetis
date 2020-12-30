@@ -66,15 +66,8 @@ const NosPrestation = (props) => {
             <p>Soyez en première position sur Google</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={calendar} alt="Icon" />
-            <h3>MEOCALENDAR</h3>
-            <p>Permettez à vos clients de prendre rendez-vous chez vous</p>
-          </div>
-        </div>
       </div>
-    </div> 
+    </div>
   */
   }
   return (
@@ -87,7 +80,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row NosPres">
           <div class="col-lg-4 col-md-4 col-sm-6 ">
             <div class="single-cat">
               <div class="cat-icon">
