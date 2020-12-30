@@ -4,6 +4,9 @@ import OwlCarousel from 'react-owl-carousel';
 // import 'owl.carousel/dist/assets/owl.theme.default.css';
 import '../styles/css/owl.css';
 import img1 from '../assets/img/testimonial-1.jpg';
+import img2 from '../assets/img/testimonial-2.jpg';
+import img3 from '../assets/img/testimonial-3.jpg';
+import img4 from '../assets/img/testimonial-4.jpg';
 // import './owl.css';
 {
   /* <img src="img/testimonial-1.jpg" alt="Image" />; */
@@ -47,7 +50,7 @@ const Testimonial = () => {
           </div>
 
           <div class="testimonial-item">
-            <img src={img1} alt="Image" />
+            <img src={img2} alt="Image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
@@ -57,7 +60,7 @@ const Testimonial = () => {
           </div>
 
           <div class="testimonial-item">
-            <img src={img1} alt="Image" />
+            <img src={img3} alt="Image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
@@ -67,7 +70,7 @@ const Testimonial = () => {
           </div>
 
           <div class="testimonial-item">
-            <img src={img1} alt="Image" />
+            <img src={img4} alt="Image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
@@ -76,35 +79,6 @@ const Testimonial = () => {
             <h3>Profession</h3>
           </div>
 
-          <div class="testimonial-item">
-            <img src={img1} alt="Image" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ut mollis mauris. Vivamus egestas eleifend dui ac consequat
-            </p>
-            <h2>Client Name</h2>
-            <h3>Profession</h3>
-          </div>
-
-          <div class="testimonial-item">
-            <img src={img1} alt="Image" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ut mollis mauris. Vivamus egestas eleifend dui ac consequat
-            </p>
-            <h2>Client Name</h2>
-            <h3>Profession</h3>
-          </div>
-
-          <div class="testimonial-item">
-            <img src={img1} alt="Image" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ut mollis mauris. Vivamus egestas eleifend dui ac consequat
-            </p>
-            <h2>Client Name</h2>
-            <h3>Profession</h3>
-          </div>
         </OwlCarousel>
       </div>
     </div>

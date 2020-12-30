@@ -2,7 +2,7 @@ import React from 'react'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import {Link} from "react-router-dom"
-import Background from "../../assets/img/background-faq.jpg"
+import Background from "../../assets/img/breadcumb.png"
 
 const Faq = (props) => {
   return (

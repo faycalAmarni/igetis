@@ -12,13 +12,7 @@ function Footer() {
                                 <p><i className="fa fa-map-marker-alt"></i>123 Rue, Paris, France</p>
                                 <p><i className="fa fa-phone-alt"></i>+33766951453</p>
                                 <p><i className="fa fa-envelope"></i>info@example.com</p>
-                                <div className="footer-social">
-                                    <a href=""><i className="fab fa-twitter"></i></a>
-                                    <a href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a href=""><i className="fab fa-youtube"></i></a>
-                                    <a href=""><i className="fab fa-instagram"></i></a>
-                                    <a href=""><i className="fab fa-linkedin-in"></i></a>
-                                </div>
+                            
                             </div>
                         </div>
                         <div className="col-md-6">

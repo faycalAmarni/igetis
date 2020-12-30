@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from "../../assets/img/carousel-3.jpg"
+import Background from "../../assets/img/breadcumb.png"
 import Apropos from "./Apropos"
 import NousChoisir from "./NousChoisir"
 import Puissance from "./Puissance"

@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactHome from './ContactHome'
-import Background from "../../assets/img/contact.jpg"
+import Background from "../../assets/img/breadcumb.png"
 
 const Contact = (props) => {
   return (

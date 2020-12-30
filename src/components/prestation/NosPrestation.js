@@ -5,7 +5,7 @@ import creationBlog from '../../assets/img/wordpress.png';
 import facebbok from '../../assets/img/facebook.png';
 import video from '../../assets/img/video.png';
 import print from '../../assets/img/print.png';
-import googlead from '../../assets/img/googlead.png';
+import googlead from '../../assets/img/googlead.PNG';
 import calendar from '../../assets/img/calendar.jpg';
 
 import '../../styles/css/nosPrestation.css';
@@ -66,15 +66,8 @@ const NosPrestation = (props) => {
             <p>Soyez en première position sur Google</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={calendar} alt="Icon" />
-            <h3>MEOCALENDAR</h3>
-            <p>Permettez à vos clients de prendre rendez-vous chez vous</p>
-          </div>
-        </div>
       </div>
-    </div> 
+    </div>
   */
   }
   return (
@@ -87,7 +80,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row NosPres">
           <div class="col-lg-4 col-md-4 col-sm-6 ">
             <div class="single-cat">
               <div class="cat-icon">
@@ -110,11 +103,10 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">Commitment to Security</a>
+                  <a href="#">Création De Site Internet</a>
                 </h5>
                 <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
+                  Bénéficiez d'un outil qui vous ressemble
                 </p>
               </div>
             </div>
@@ -126,11 +118,10 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">Passion for Privacy</a>
+                  <a href="#">Création De Blog</a>
                 </h5>
                 <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
+                Soyez encore plus proche de vos clients
                 </p>
               </div>
             </div>
@@ -142,11 +133,10 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">Employee Owned</a>
+                  <a href="#">Page Facebook</a>
                 </h5>
                 <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
+                  Soyez encore plus proche de vos clients
                 </p>
               </div>
             </div>
@@ -158,11 +148,10 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">24/7 Support</a>
+                  <a href="#">Print</a>
                 </h5>
                 <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
+                  Communiquez autrement que sur Internet
                 </p>
               </div>
             </div>
@@ -174,11 +163,10 @@ const NosPrestation = (props) => {
               </div>
               <div class="cat-cap">
                 <h5>
-                  <a href="#">100% Uptime Guaranteed</a>
+                  <a href="#">Google Adwords</a>
                 </h5>
                 <p>
-                  Supercharge your WordPress hosting with detailed website
-                  analytics, marketing tools.
+                    Soyez en première position sur Google
                 </p>
               </div>
             </div>
