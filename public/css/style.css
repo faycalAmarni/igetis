@@ -300,7 +300,7 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(9, 42, 73, .7);
+    background: rgba(9, 42, 73, .3);
     z-index: 1;
 }
 
@@ -1737,5 +1737,7 @@ section{
       right: 0;
       bottom: 0;
       content: '';
-        .hero-wrap.hero-wrap-2 .slider-text {
-      height: 400px !important; }
+    }
+    .hero-wrap.hero-wrap-2 .slider-text {
+      height: 400px !important; 
+    }

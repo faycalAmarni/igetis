@@ -26,11 +26,11 @@ function Caros() {
         <OwlCarousel
           class="testimonials-carousel owl-carousel"
           items={1}
-          loop={true}
+          // loop={true}
           animateOut={'fadeOut'}
           animateIn={'fadeIn'}
           dots={false}
-          autoplay={true}
+          // autoplay={true}
           nav={false}
         >
           <div class="carousel-item">
@@ -51,7 +51,7 @@ function Caros() {
             </div>
           </div>
 
-          <div class="carousel-item">
+          {/* <div class="carousel-item">
             <div class="carousel-img">
               <img src={meeting_2} alt="temp" />
             </div>
@@ -67,8 +67,8 @@ function Caros() {
                 </Link>
               </div>
             </div>
-          </div>
-
+          </div> */}
+          {/* 
           <div class="carousel-item">
             <div class="carousel-img">
               <img src={meeting_3} alt="temp" />
@@ -85,9 +85,9 @@ function Caros() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div class="carousel-item">
+          {/* <div class="carousel-item">
             <div class="carousel-img">
               <img src={meeting_1} alt="temp" />
             </div>
@@ -103,7 +103,7 @@ function Caros() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </OwlCarousel>
       </div>
     </div>
