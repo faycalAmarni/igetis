@@ -1,0 +1,23 @@
+#email-btn{
+    
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    height: 44px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #092a49;
+    background: none;
+    border-radius: 0;
+    border: 2px solid #092a49;
+    transition: .3s;
+
+}
+
+#email-btn:hover {
+  
+    color: #0796fe;
+    background: #092a49;
+    
+}
