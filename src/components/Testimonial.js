@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import OwlCarousel from 'react-owl-carousel';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
 // import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -7,28 +7,34 @@ import img1 from '../assets/img/testimonial-1.jpg';
 import img2 from '../assets/img/testimonial-2.jpg';
 import img3 from '../assets/img/testimonial-3.jpg';
 import img4 from '../assets/img/testimonial-4.jpg';
+import AOS from 'aos';
 // import './owl.css';
 {
   /* <img src="img/testimonial-1.jpg" alt="Image" />; */
 }
 const Testimonial = () => {
+
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
-    <div class="testimonial">
-      <div class="container-fluid">
+    <div class="testimonial" >
+      <div class="container" data-aos="fade-up">
         <div className="section-header">
-          <h2>Avis</h2>
+          <h2 style={{color: "#FFFFFF"}}>What our users say</h2>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <OwlCarousel
           class="testimonials-carousel owl-carousel"
-          items={3}
+          items={1}
+
           // margin={3}
           animateOut={'fadeOut'}
           animateIn={'fadeIn'}
           smartSpeed={300}
-          //     animateIn: 'fadeIn',
           dots={false}
           autoplay={true}
           nav={true}
@@ -37,14 +43,13 @@ const Testimonial = () => {
             "<i class='fa fa-angle-right' aria-hidden='true'></i>",
           ]}
         >
-          <div class="testimonial-item">
+          <div class="testimonial-item" style={{alignItems: 'center'}}>
             <img src={img1} alt="Image" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              ut mollis mauris. Vivamus egestas eleifend dui ac consequat
+              ut mollis mauris. Vivamus egestas eleifend dui ac consequat Vivamus egestas eleifend dui ac consequat
             </p>
             <h2>Client Name</h2>
-            <h3>Profession</h3>
           </div>
 
           <div class="testimonial-item">
@@ -54,7 +59,7 @@ const Testimonial = () => {
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
             </p>
             <h2>Client Name</h2>
-            <h3>Profession</h3>
+
           </div>
 
           <div class="testimonial-item">
@@ -64,7 +69,7 @@ const Testimonial = () => {
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
             </p>
             <h2>Client Name</h2>
-            <h3>Profession</h3>
+
           </div>
 
           <div class="testimonial-item">
@@ -74,7 +79,7 @@ const Testimonial = () => {
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
             </p>
             <h2>Client Name</h2>
-            <h3>Profession</h3>
+
           </div>
 
         </OwlCarousel>

@@ -4,6 +4,7 @@ import '../../styles/css/creation.css';
 import 'aos/dist/aos.css';
 
 import productImg from '../../assets/img/advanced-feature-1.jpg';
+import referenceImg from '../../assets/img/recherche-google.jpg'
 
 const CreationReferencement = () => {
   useEffect(() => {
@@ -13,25 +14,21 @@ const CreationReferencement = () => {
   return (
     <div>
       <section id="advanced-features">
-        <div class="features-row section-bg">
+        <div class="features-row section-bg site">
           <div class="container">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12" >
                 <img
                   class="advanced-feature-img-right aos-init aos-animate"
                   src={productImg}
                   alt=""
-                  data-aos="fade-bottom"
+                  data-aos="fade-up"
                 />
-                <div data-aos="fade-bottom" class="aos-init aos-animate">
+              <div data-aos="fade-up" class="aos-init aos-animate">
                   <h2>
-                    Nous créons des sites vitrine modernes, flexibles et clés en
-                    main
+                    Nous créons des sites vitrine modernes et flexibles
                   </h2>
-                  <h3>
-                    Notre cœur de métier est la réalisation de sites Internet
-                    vitrine et e-commerce.
-                  </h3>
+
                   <p>
                     Nous imaginons le site qui répondra à votre identité puisque
                     chaque entreprise a ses besoins et ses attentes. Vos
@@ -46,7 +43,7 @@ const CreationReferencement = () => {
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                   </p> */}
-                  <a data-aos="fade-right" className="btn" href>
+                  <a data-aos="fade-right" className="btn" >
                     NOS PRESTATIONS
                   </a>
                 </div>
@@ -55,34 +52,35 @@ const CreationReferencement = () => {
           </div>
         </div>
 
-        <div class="features-row">
+        <div class="features-row reference">
           <div class="container">
             <div class="row">
               <div class="col-12">
                 <img
                   class="advanced-feature-img-left"
-                  src={productImg}
+                  src={referenceImg}
                   alt=""
+                  data-aos="fade-up"
                 />
-                <div data-aos="fade-bottom" class="aos-init">
+              <div data-aos="fade-up" class="aos-init">
                   <h2>RÉFÉRENCEMENT LOCAL</h2>
-                  <h3>
-                    Notre cœur de métier est la réalisation de sites Internet
-                    vitrine et e-commerce.
-                  </h3>
+
                   <i
                     class="ion-ios-paper-outline aos-init"
-                    data-aos="fade-bottom"
+                    data-aos="fade-up"
                   ></i>
-                  <p data-aos="fade-bottom" class="aos-init">
-                    Nous proposons à votre entreprise une visibilité maximale en
+                <p data-aos="fade-up" class="aos-init">
+                    Nous proposons à votre entreprise une parfaite visibilité sur le Web en
                     fonction des tendances de Google en matière de
-                    positionnement. Un référencement SEO local ou national selon
-                    vos besoins.
-                  </p>
+                    positionnement. 
+                </p>
+                <p data-aos="fade-up" class="aos-init">
+                  IGETIS assure le meilleur positionnement sur les
+                    principaux moteurs de recherche du moment.
+                </p>
                   <i
                     class="ion-ios-color-filter-outline aos-init"
-                    data-aos="fade-bottom"
+                    data-aos="fade-up"
                     data-aos-delay="200"
                   ></i>
                   {/* <p data-aos="fade-left" data-aos-delay="200" class="aos-init">

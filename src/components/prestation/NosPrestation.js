@@ -11,67 +11,8 @@ import calendar from '../../assets/img/calendar.jpg';
 import '../../styles/css/nosPrestation.css';
 import service from '../../assets/img/icon/services1.svg';
 const NosPrestation = (props) => {
-  {
-    /*<div class="container  service">
-      <div class="section-header">
-        <h2> NOS PRESTATIONS</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={refgoogle} alt="Icon" />
-            <h3>RÉFÉRENCEMENT GOOGLE</h3>
-            <p>Soyez visible sur Google moteur de recherche n°1 en France</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={creationSite} alt="Icon" />
-            <h3>CRÉATION DE SITE INTERNET</h3>
-            <p>Bénéficiez d'un outil qui vous ressemble</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={creationBlog} alt="Icon" />
-            <h3>CRÉATION DE BLOG</h3>
-            <p>Soyez encore plus proche de vos clients</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={facebbok} alt="Icon" />
-            <h3>PAGE FACEBOOK</h3>
-            <p>Soyez encore plus proche de vos clients</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={video} alt="Icon" />
-            <h3>VIDÉOS D'ENTREPRISE</h3>
-            <p>Attirez vos futurs clients avec une vidéo</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={print} alt="Icon" />
-            <h3>PRINT</h3>
-            <p>Communiquez autrement que sur Internet</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="service-item">
-            <img src={googlead} alt="Icon" />
-            <h3>GOOGLE ADWORDS</h3>
-            <p>Soyez en première position sur Google</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  */
-  }
   return (
-    <section class="team-area section-padding10  section-bg">
+    <section class="team-area section-padding10 ">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-12">
@@ -80,9 +21,9 @@ const NosPrestation = (props) => {
             </div>
           </div>
         </div>
-        <div class="row NosPres">
+        <div class="row NosPres container-fluid">
           <div class="col-lg-4 col-md-4 col-sm-6 ">
-            <div class="single-cat">
+            <div class="single-cat" >
               <div class="cat-icon">
                 <img src={refgoogle} alt="" />
               </div>
@@ -110,7 +51,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="single-cat">
+            <div class="single-cat" >
               <div class="cat-icon">
                 <img src={creationBlog} alt="" />
               </div>

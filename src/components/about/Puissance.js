@@ -9,7 +9,7 @@ const Puissance = (props) => {
     AOS.refresh();
   }, []);
   return (
-    <section class="ftco-section" data-aos="fade-up">
+    <section class="ftco-section" data-aos="fade-up"  data-aos-duration="1000">
       <div class="container">
         <div
           class="section-header"
@@ -32,8 +32,12 @@ const Puissance = (props) => {
                   <img src={visibilite} alt="Icon" />
                 </div>
               </div>
-              <h2>Visibilité</h2>
-              <p>Assuarance d'une parfaite visibilité sur le Web.</p>
+              <h2>Temps</h2>
+              <p>Parceque internet n’est pas
+                  forcement le metiers des PMEs,
+                  Igetis met son savoir faire à
+                  dispositions pour libérer le
+                  temps precieux des PMEs.</p>
             </div>
           </div>
           <div class="col-md-4 d-flex align-items-stretch ">
