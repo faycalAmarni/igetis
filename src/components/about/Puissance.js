@@ -14,9 +14,9 @@ const Puissance = (props) => {
         <div
           class="section-header"
           style={{ marginTop: -40, marginBottom: 60 }}
-
         >
           <h2> NOTRE PUISSANCE</h2>
+          <span class="section-divider"></span>
         </div>
         <div
           class="row"

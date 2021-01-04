@@ -13,6 +13,7 @@ const Referencement = () => {
     <section class="">
       <div className="section-header">
         <h2>NOS REFERENCES</h2>
+        <span class="section-divider"></span>
       </div>
       <div>
         <div class="row">

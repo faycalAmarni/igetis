@@ -7,6 +7,7 @@ const Apropos = (props) => {
         <div class="about">
           <div className="section-header appropos_header">
             <h2>À PROPOS DE IGETIS</h2>
+            <span class="section-divider"></span>
             <hr />
             <h4>
               Agence de communication spécialisée dans la création de site

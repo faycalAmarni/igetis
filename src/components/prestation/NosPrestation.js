@@ -12,14 +12,11 @@ import '../../styles/css/nosPrestation.css';
 import service from '../../assets/img/icon/services1.svg';
 const NosPrestation = (props) => {
   return (
-    <section class="team-area section-padding10 ">
+    <section class="team-area section-padding10 " style={{marginTop: 50, marginBottom: 40}}>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-12">
-            <div class="text-center mt-20 mb-30">
-              <h2> NOS PRESTATIONS</h2>
-            </div>
-          </div>
+        <div className="section-header">
+          <h2>NOS PRESTATIONS</h2>
+          <span class="section-divider"></span>
         </div>
         <div class="row NosPres container-fluid">
           <div class="col-lg-4 col-md-4 col-sm-6 ">

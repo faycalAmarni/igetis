@@ -19,9 +19,9 @@ class Home extends React.Component {
         <Testimonial />
         <NosPrestation />
         <Apropos />
-
-        <Referencement />
         <ContactHome />
+        <Referencement />
+
       </div>
     );
   }

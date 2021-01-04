@@ -489,7 +489,7 @@ a:focus {
     margin: 0 0 0 40px;
     color: #31424E;
     position: relative;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 400;
 }
 
@@ -520,6 +520,17 @@ a:focus {
     .section-header h2 {
         font-size: 35px;
     }
+}
+
+.section-header .section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0894FA;
+  background: linear-gradient(0deg, #1dc8cd 0%, #0894FA 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
@@ -1325,7 +1336,7 @@ section{
     color: #092a49;
     background: none;
     border: 2px solid #092a49;
-    border-radius: 0;
+    border-radius: 0 !important;
     transition: .3s;
 }
 

@@ -23,6 +23,7 @@ const Testimonial = () => {
       <div class="container" data-aos="fade-up">
         <div className="section-header">
           <h2 style={{color: "#FFFFFF"}}>What our users say</h2>
+          <span class="section-divider"></span>
         </div>
       </div>
 

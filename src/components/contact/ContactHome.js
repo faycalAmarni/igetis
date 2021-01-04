@@ -17,6 +17,7 @@ const ContactHome = (props) => {
     <div className="container contact">
       <div className="section-header">
         <h2>Contactez-nous pour toute information</h2>
+        <span class="section-divider"></span>
       </div>
       <div className="row align-items-center">
         <div className="col-md-5">
