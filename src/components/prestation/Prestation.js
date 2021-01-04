@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Background from '../../assets/img/carousel-3.jpg';
+import Background from "../../assets/img/breadcumb.png"
 import NosPrestation from './NosPrestation';
 import '../../styles/css/prestation.css';
 import AOS from 'aos';
@@ -28,13 +28,13 @@ const Prestation = (props) => {
         data-stellar-background-ratio="0.5"
       >
         <div className="overlay"></div>
-        <div className="container">
-          <div className="row no-gutters slider-text align-items-end justify-content-center">
-            <div className="col-md-9  mb-5 text-center">
-              <h1 className="mb-0 bread">NOS SOLUTIONS</h1>
+
+          <div className="row no-gutters slider-text align-items-end ">
+            <div className="col-md-8">
+              <h1 className="headerH1" >NOS SOLUTIONS</h1>
             </div>
           </div>
-        </div>
+
       </section>
 
       {/* new creation referencenement section */}

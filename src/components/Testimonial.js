@@ -35,8 +35,9 @@ const Testimonial = () => {
           // margin={3}
           animateOut={'fadeOut'}
           animateIn={'fadeIn'}
-          smartSpeed={300}
+          smartSpeed={100}
           dots={false}
+          loop={true}
           autoplay={true}
           nav={true}
           navText={[

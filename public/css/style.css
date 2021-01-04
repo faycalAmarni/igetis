@@ -1013,8 +1013,8 @@ a:focus {
 
 
 section{
-    /* margin-top: 20px; */
-    /* margin-bottom: 20px; */
+    margin-top: 20px;
+     margin-bottom: 20px;
 }
 
 .testimonial .owl-nav .owl-prev:active,
@@ -1305,7 +1305,7 @@ section{
 
 .contact .contact-form:hover {
     border-color: transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .4);
 }
 
 .contact .contact-form input {
@@ -1730,9 +1730,10 @@ section{
   background-repeat: no-repeat;
   background-position: top center;
   position: relative;
+  margin-top: -1px;
   z-index: 0; }
   .hero-wrap.hero-wrap-2 {
-    height: 500px !important;
+    height: 570px !important;
     position: relative; }
     .hero-wrap.hero-wrap-2 .overlay {
       width: 100%;
@@ -1745,5 +1746,11 @@ section{
       content: '';
     }
     .hero-wrap.hero-wrap-2 .slider-text {
-      height: 400px !important;
+      height: 330px !important;
+      margin: 0px 0px 0px 30px;
+    }
+    .headerH1 {
+      font-size: 50px;
+      color: #FFFFFF !important;
+      text-align: left;
     }

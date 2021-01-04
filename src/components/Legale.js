@@ -6,6 +6,7 @@ const Legale = (props) => {
         <div class="container">
             <div class="section-header">
                 <h2>Mentions légales</h2>
+                <span class="section-divider"></span>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -17,7 +18,6 @@ const Legale = (props) => {
                     <li><strong> Téléphone : </strong> 0 810 600 145.</li>
                     <li><strong> Courrier électronique : </strong> contact@incomm.fr.</li>
                     <li><strong> N° de TVA intracommunautaire :</strong> FR 26 479144438.</li>
-
                 </ul>
                   <section id="contenu">
                     <h3>LE CONTENU DU SITE</h3>

@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import AOS from 'aos';
 
 const phoneRegExp = /^(([\+][0-9]{1,4})|0)[0-9]{9}$/;
 const SignupSchema = Yup.object().shape({
@@ -13,13 +14,17 @@ const SignupSchema = Yup.object().shape({
 });
 
 const ContactHome = (props) => {
+      useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
   return (
-    <div className="container contact">
-      <div className="section-header">
+    <div className="container contact" id="contact">
+      <div className="section-header" data-aos="fade-up">
         <h2>Contactez-nous pour toute information</h2>
         <span class="section-divider"></span>
       </div>
-      <div className="row align-items-center">
+      <div className="row align-items-center" data-aos="fade-up">
         <div className="col-md-5">
           <div className="contact-info">
             <div className="contact-icon">
@@ -49,8 +54,8 @@ const ContactHome = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-md-7">
-          <div className="contact-form">
+        <div className="col-md-7" data-aos="fade-up">
+          <div className="contact-form" >
             <div id="success" />
             <Formik
               initialValues={{
@@ -157,11 +162,11 @@ const ContactHome = (props) => {
                       className="form-control"
                       style={
                         errors.sujet && touched.sujet
-                          ? { borderColor: '#BE4B49', borderWidth: 2 }
-                          : {}
+                          ? {backgroundColor: "transparent", borderColor: '#BE4B49', borderWidth: 2 }
+                          : {backgroundColor: "transparent"}
                       }
                     >
-                      <option selected disabled value="">
+                      <option selected disabled value="" >
                         Sujet*
                       </option>
                       <option value="Demande de renseignements">Demande de renseignements</option>

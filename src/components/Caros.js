@@ -21,12 +21,6 @@ function Caros() {
         <OwlCarousel
           class="testimonials-carousel owl-carousel"
           items={1}
-          // loop={true}
-          animateOut={'fadeOut'}
-          animateIn={'fadeIn'}
-          dots={false}
-          // autoplay={true}
-          nav={false}
         >
           <div class="carousel-item">
             <div class="carousel-img">

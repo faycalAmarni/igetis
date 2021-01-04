@@ -5,8 +5,8 @@ class NotFoundPage extends React.Component{
     render(){
 
         return(
-          <div style={{alignItems: 'center'}}>
-            <img class="col-md-10" src={PageNotFound} />
+          <div  style={{alignItems: 'center', backgroundColor: "#FFFFFF", marginBottom: -40}} >
+            <img class="col-md-10" src={PageNotFound}/>
           </div>
         )
 

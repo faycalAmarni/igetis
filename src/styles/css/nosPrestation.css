@@ -2812,7 +2812,8 @@ form.search-box .input-form .world-form i{
     -o-transition:.4s;
     transition:.4s;
     z-index:1;
-    margin-bottom:40px
+    margin-bottom:40px;
+    margin-right: 30px
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
     .team-area .single-cat{
@@ -5849,6 +5850,13 @@ b,sup,sub,u,del{
 .switch-wrap{
     margin-bottom:10px
 }
+
 .NosPres {
   margin: 0px 0px 0px 20px
+}
+
+@media (min-width: 768px){
+  .NosPres {
+    margin: 0px 0px 0px 110px
+  }
 }

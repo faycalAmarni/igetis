@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import refgoogle from '../../assets/img/google1.png';
 import creationSite from '../../assets/img/internet1.png';
 import creationBlog from '../../assets/img/wordpress1.png';
@@ -7,20 +7,24 @@ import video from '../../assets/img/video.png';
 import print from '../../assets/img/print.svg';
 import googlead from '../../assets/img/google-ads.png';
 import calendar from '../../assets/img/calendar.jpg';
-
+import AOS from 'aos';
 import '../../styles/css/nosPrestation.css';
 import service from '../../assets/img/icon/services1.svg';
 const NosPrestation = (props) => {
+      useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
   return (
     <section class="team-area section-padding10 " style={{marginTop: 50, marginBottom: 40}}>
-      <div class="container">
-        <div className="section-header">
+      <div >
+        <div className="section-header" data-aos="fade-up">
           <h2>NOS PRESTATIONS</h2>
           <span class="section-divider"></span>
         </div>
-        <div class="row NosPres container-fluid">
+        <div class="row NosPres">
           <div class="col-lg-4 col-md-4 col-sm-6 ">
-            <div class="single-cat" >
+            <div class="single-cat" data-aos="fade-up">
               <div class="cat-icon">
                 <img src={refgoogle} alt="" />
               </div>
@@ -35,7 +39,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="single-cat">
+            <div class="single-cat" data-aos="fade-up">
               <div class="cat-icon">
                 <img src={creationSite} alt="" />
               </div>
@@ -48,7 +52,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="single-cat" >
+            <div class="single-cat" data-aos="fade-up">
               <div class="cat-icon">
                 <img src={creationBlog} alt="" />
               </div>
@@ -61,7 +65,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="single-cat">
+            <div class="single-cat" data-aos="fade-up">
               <div class="cat-icon">
                 <img src={facebbok} alt="" />
               </div>
@@ -74,7 +78,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="single-cat">
+            <div class="single-cat" data-aos="fade-up">
               <div class="cat-icon">
                 <img src={print} alt="" />
               </div>
@@ -87,7 +91,7 @@ const NosPrestation = (props) => {
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="single-cat">
+            <div class="single-cat" data-aos="fade-up">
               <div class="cat-icon">
                 <img src={googlead} alt="" />
               </div>

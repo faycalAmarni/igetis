@@ -92,6 +92,7 @@ class Header extends React.Component {
                       'nav-item nav-link ' +
                       (path == '/Prestation' ? 'active' : '')
                     }
+
                   >
                     PRESTATIONS
                   </a>
@@ -108,9 +109,9 @@ class Header extends React.Component {
                     FAQ
                   </a>
                 </NavLink>
-                <Link to="/Contact">
+                
                   <a
-                    href="./Contact.js"
+                    href="#contact"
                     className={
                       'nav-item nav-link ' +
                       (path == '/Contact' ? 'active' : '')
@@ -118,7 +119,7 @@ class Header extends React.Component {
                   >
                     Contact
                   </a>
-                </Link>
+              
               </div>
             </div>
           </div>
