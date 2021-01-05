@@ -10,7 +10,7 @@ import eight from '../../assets/img/reference/8.jpg';
 import '../../styles/css/referencement.css';
 const Referencement = () => {
   return (
-    <section class="">
+    <section id="reference">
       <div className="section-header">
         <h2>NOS REFERENCES</h2>
         <span class="section-divider"></span>

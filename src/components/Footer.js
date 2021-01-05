@@ -26,7 +26,7 @@ function Footer() {
               <div className="col-md-6">
                 <div className="footer-link">
                   <h2>Liens rapides</h2>
-                  <Link to="/Legale"><a href="">Conditions d'utilisation</a></Link>
+                  <Link to="/Legale">Conditions d'utilisation</Link> 
                   <a href="">Politique de confidentialité</a>
                   <a href="">FQAs</a>
                 </div>

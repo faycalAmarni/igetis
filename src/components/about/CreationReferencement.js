@@ -43,8 +43,8 @@ const CreationReferencement = () => {
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                   </p> */}
-                  <a data-aos="fade-right" className="btn" >
-                    NOS PRESTATIONS
+                  <a data-aos="fade-up" className="btn" href="#packs">
+                    NOS PACKS
                   </a>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const CreationReferencement = () => {
                 <p data-aos="fade-up" class="aos-init">
                     Nous proposons à votre entreprise une parfaite visibilité sur le Web en
                     fonction des tendances de Google en matière de
-                    positionnement. 
+                    positionnement.
                 </p>
                 <p data-aos="fade-up" class="aos-init">
                   IGETIS assure le meilleur positionnement sur les
@@ -98,7 +98,7 @@ const CreationReferencement = () => {
                     ea commodo consequat. Duis aute irure dolor in reprehenderit
                     in voluptate velit esse cillum.
                   </p> */}
-                  <a data-aos="fade-left" className="btn" href>
+                  <a data-aos="fade-up" className="btn" href="#prestation">
                     NOS PRESTATIONS
                   </a>
                 </div>

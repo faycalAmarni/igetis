@@ -16,7 +16,7 @@ const NosPrestation = (props) => {
         AOS.refresh();
       }, []);
   return (
-    <section class="team-area section-padding10 " style={{marginTop: 50, marginBottom: 40}}>
+    <section id='prestation' class="team-area section-padding10 " style={{marginTop: 50, marginBottom: 40}}>
       <div >
         <div className="section-header" data-aos="fade-up">
           <h2>NOS PRESTATIONS</h2>
