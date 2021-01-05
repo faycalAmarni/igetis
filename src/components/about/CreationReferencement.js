@@ -4,7 +4,7 @@ import '../../styles/css/creation.css';
 import 'aos/dist/aos.css';
 
 import productImg from '../../assets/img/advanced-feature-1.jpg';
-import referenceImg from '../../assets/img/recherche-google.jpg'
+import referenceImg from '../../assets/img/recherche-google.jpg';
 
 const CreationReferencement = () => {
   useEffect(() => {
@@ -17,17 +17,15 @@ const CreationReferencement = () => {
         <div class="features-row section-bg site">
           <div class="container">
             <div class="row">
-              <div class="col-12" >
+              <div class="col-12">
                 <img
                   class="advanced-feature-img-right aos-init aos-animate"
                   src={productImg}
                   alt=""
                   data-aos="fade-up"
                 />
-              <div data-aos="fade-up" class="aos-init aos-animate">
-                  <h2>
-                    Nous créons des sites vitrine modernes et flexibles
-                  </h2>
+                <div data-aos="fade-up" class="aos-init aos-animate">
+                  <h2>Nous créons des sites vitrine modernes et flexibles</h2>
 
                   <p>
                     Nous imaginons le site qui répondra à votre identité puisque
@@ -43,7 +41,7 @@ const CreationReferencement = () => {
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                   </p> */}
-                  <a data-aos="fade-right" className="btn" >
+                  <a data-aos="fade-up" className="btn">
                     NOS PRESTATIONS
                   </a>
                 </div>
@@ -62,22 +60,22 @@ const CreationReferencement = () => {
                   alt=""
                   data-aos="fade-up"
                 />
-              <div data-aos="fade-up" class="aos-init">
+                <div data-aos="fade-up" class="aos-init">
                   <h2>RÉFÉRENCEMENT LOCAL</h2>
 
                   <i
                     class="ion-ios-paper-outline aos-init"
                     data-aos="fade-up"
                   ></i>
-                <p data-aos="fade-up" class="aos-init">
-                    Nous proposons à votre entreprise une parfaite visibilité sur le Web en
-                    fonction des tendances de Google en matière de
-                    positionnement. 
-                </p>
-                <p data-aos="fade-up" class="aos-init">
-                  IGETIS assure le meilleur positionnement sur les
-                    principaux moteurs de recherche du moment.
-                </p>
+                  <p data-aos="fade-up" class="aos-init">
+                    Nous proposons à votre entreprise une parfaite visibilité
+                    sur le Web en fonction des tendances de Google en matière de
+                    positionnement.
+                  </p>
+                  <p data-aos="fade-up" class="aos-init">
+                    IGETIS assure le meilleur positionnement sur les principaux
+                    moteurs de recherche du moment.
+                  </p>
                   <i
                     class="ion-ios-color-filter-outline aos-init"
                     data-aos="fade-up"
@@ -98,7 +96,7 @@ const CreationReferencement = () => {
                     ea commodo consequat. Duis aute irure dolor in reprehenderit
                     in voluptate velit esse cillum.
                   </p> */}
-                  <a data-aos="fade-left" className="btn" href>
+                  <a data-aos="fade-up" className="btn" href>
                     NOS PRESTATIONS
                   </a>
                 </div>

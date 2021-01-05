@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import AOS from 'aos';
@@ -14,10 +14,10 @@ const SignupSchema = Yup.object().shape({
 });
 
 const ContactHome = (props) => {
-      useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-      }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="container contact" id="contact">
       <div className="section-header" data-aos="fade-up">
@@ -55,7 +55,7 @@ const ContactHome = (props) => {
           </div>
         </div>
         <div className="col-md-7" data-aos="fade-up">
-          <div className="contact-form" >
+          <div className="contact-form">
             <div id="success" />
             <Formik
               initialValues={{
@@ -70,16 +70,24 @@ const ContactHome = (props) => {
               onSubmit={(values, actions) => {
                 // same shape as initial values
 
-                console.log(values);
-                window.emailjs.send("service_90prgkk","template_4catidt", {
-                   email: values.email,
-                   nom: values.nom,
-                   prenom : values.prenom,
-                   telephone : values.telephone,
-                   message: values.message,
-                   sujet : values.sujet
-                 },
-                 'user_C2QWfjr4NpYSiQyQHTD48',);
+                console.log(SignupSchema);
+                window.emailjs
+                  .send(
+                    'service_90prgkk',
+                    'template_4catidt',
+                    {
+                      email: values.email,
+                      nom: values.nom,
+                      prenom: values.prenom,
+                      telephone: values.telephone,
+                      message: values.message,
+                      sujet: values.sujet,
+                    },
+                    'user_C2QWfjr4NpYSiQyQHTD48'
+                  )
+                  .then((e) => {
+                    console.log(e);
+                  });
                 actions.resetForm();
               }}
             >
@@ -97,10 +105,15 @@ const ContactHome = (props) => {
                             : {}
                         }
                       />
-                      <div className="help-block text-danger">
+                      {errors.nom && touched.nom ? (
+                        <div className="help-block text-danger">
+                          le champ Nom est obligatoire!
+                        </div>
+                      ) : null}
+                      {/* <div className="help-block text-danger">
                         {' '}
                         {errors.nom && touched.nom ? errors.nom : null}
-                      </div>
+                      </div> */}
                       <br />
                     </div>
                     <div className="col-md-6 control-group ">
@@ -116,7 +129,9 @@ const ContactHome = (props) => {
                       />
                       <div className="help-block text-danger">
                         {' '}
-                        {errors.prenom && touched.prenom ? errors.prenom : null}
+                        {errors.prenom && touched.prenom
+                          ? 'le champ prenom est obligatoire!'
+                          : null}
                       </div>
                       <br />
                     </div>
@@ -136,7 +151,9 @@ const ContactHome = (props) => {
 
                       <div className="help-block text-danger">
                         {' '}
-                        {errors.email && touched.email ? errors.email : null}
+                        {errors.email && touched.email
+                          ? 'le champ email est obligatoire!'
+                          : null}
                       </div>
                       <br />
                     </div>
@@ -151,7 +168,11 @@ const ContactHome = (props) => {
                             : {}
                         }
                       />
-                      <p className="help-block text-danger" />
+                      <p className="help-block text-danger">
+                        {errors.telephone && touched.telephone
+                          ? 'le numéro de téléphoné est erroné'
+                          : null}
+                      </p>
                     </div>
                   </div>
                   <div className="control-group">
@@ -162,17 +183,27 @@ const ContactHome = (props) => {
                       className="form-control"
                       style={
                         errors.sujet && touched.sujet
-                          ? {backgroundColor: "transparent", borderColor: '#BE4B49', borderWidth: 2 }
-                          : {backgroundColor: "transparent"}
+                          ? {
+                              backgroundColor: 'transparent',
+                              borderColor: '#BE4B49',
+                              borderWidth: 2,
+                            }
+                          : { backgroundColor: 'transparent' }
                       }
                     >
-                      <option selected disabled value="" >
+                      <option selected disabled value="">
                         Sujet*
                       </option>
-                      <option value="Demande de renseignements">Demande de renseignements</option>
+                      <option value="Demande de renseignements">
+                        Demande de renseignements
+                      </option>
                       <option value="Demande de devis">Demande de devis</option>
                     </Field>
-                    <p className="help-block text-danger" />
+                    <p className="help-block text-danger">
+                      {errors.sujet && touched.sujet
+                        ? 'le champ sujet est obligatoire!'
+                        : null}
+                    </p>
                   </div>
                   <div className="control-group">
                     <Field
@@ -190,7 +221,7 @@ const ContactHome = (props) => {
                     <div className="help-block text-danger">
                       {' '}
                       {errors.message && touched.message
-                        ? errors.message
+                        ? 'le champ message est obligatoire!'
                         : null}
                     </div>
                     <br />

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import refgoogle from '../../assets/img/google1.png';
 import creationSite from '../../assets/img/internet1.png';
 import creationBlog from '../../assets/img/wordpress1.png';
@@ -11,13 +11,16 @@ import AOS from 'aos';
 import '../../styles/css/nosPrestation.css';
 import service from '../../assets/img/icon/services1.svg';
 const NosPrestation = (props) => {
-      useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-      }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <section class="team-area section-padding10 " style={{marginTop: 50, marginBottom: 40}}>
-      <div >
+    <section
+      class="team-area section-padding10"
+      style={{ marginTop: 50, marginBottom: 40 }}
+    >
+      <div>
         <div className="section-header" data-aos="fade-up">
           <h2>NOS PRESTATIONS</h2>
           <span class="section-divider"></span>

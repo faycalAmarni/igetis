@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink, withRouter } from 'react-router-dom';
-
+import { HomeOutlined } from '@ant-design/icons';
 
 class Header extends React.Component {
   constructor(props) {
@@ -69,13 +69,22 @@ class Header extends React.Component {
             >
               <div className="navbar-nav ml-auto">
                 <NavLink to="/">
-                  <a
-                    className={
-                      'nav-item nav-link ' + (path == '/' ? 'active' : '')
-                    }
-                  >
-                    Home
-                  </a>
+                  <div>
+                    <a
+                      className={
+                        'nav-item nav-link ' + (path == '/' ? 'active' : '')
+                      }
+                    >
+                      <HomeOutlined
+                        style={{
+                          verticalAlign: 'middle',
+                          marginRight: 3,
+                          marginBottom: 2,
+                        }}
+                      />
+                      Home
+                    </a>
+                  </div>
                 </NavLink>
                 <NavLink to="/About">
                   <a
@@ -92,7 +101,6 @@ class Header extends React.Component {
                       'nav-item nav-link ' +
                       (path == '/Prestation' ? 'active' : '')
                     }
-
                   >
                     PRESTATIONS
                   </a>
@@ -109,17 +117,15 @@ class Header extends React.Component {
                     FAQ
                   </a>
                 </NavLink>
-                
-                  <a
-                    href="#contact"
-                    className={
-                      'nav-item nav-link ' +
-                      (path == '/Contact' ? 'active' : '')
-                    }
-                  >
-                    Contact
-                  </a>
-              
+
+                <a
+                  href="#contact"
+                  className={
+                    'nav-item nav-link ' + (path == '/Contact' ? 'active' : '')
+                  }
+                >
+                  Contact
+                </a>
               </div>
             </div>
           </div>

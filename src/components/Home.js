@@ -8,7 +8,6 @@ import Testimonial from './Testimonial';
 import CreationReferencement from './about/CreationReferencement';
 import Referencement from './referencement/Referencement';
 
-
 class Home extends React.Component {
   render() {
     return (
@@ -21,7 +20,6 @@ class Home extends React.Component {
         <Apropos />
         <ContactHome />
         <Referencement />
-
       </div>
     );
   }

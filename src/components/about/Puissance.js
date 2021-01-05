@@ -1,5 +1,6 @@
-import React, { useEffect }  from 'react';
-import visibilite from '../../assets/img/icon-2.png';
+import React, { useEffect } from 'react';
+// import visibilite from '../../assets/img/icon-2.png';
+import visibilite from '../../assets/img/timekeeper.png';
 import analyse from '../../assets/img/icon-3.png';
 import ciblage from '../../assets/img/icon-9.png';
 import AOS from 'aos';
@@ -9,7 +10,7 @@ const Puissance = (props) => {
     AOS.refresh();
   }, []);
   return (
-    <section class="ftco-section" data-aos="fade-up"  data-aos-duration="1000">
+    <section class="ftco-section" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <div
           class="section-header"
@@ -23,7 +24,7 @@ const Puissance = (props) => {
           style={{ justifyContent: 'space-between', marginBottom: 5 }}
         >
           <div class="col-md-4 d-flex align-items-stretch ">
-            <div class="services-2 text-center" >
+            <div class="services-2 text-center">
               <div class="icon-wrap">
                 <div class="number d-flex align-items-center justify-content-center">
                   <span>01</span>
@@ -33,15 +34,15 @@ const Puissance = (props) => {
                 </div>
               </div>
               <h2>Temps</h2>
-              <p>Parceque internet n’est pas
-                  forcement le metiers des PMEs,
-                  Igetis met son savoir faire à
-                  dispositions pour libérer le
-                  temps precieux des PMEs.</p>
+              <p>
+                Parceque internet n’est pas forcement le metiers des PMEs,
+                Igetis met son savoir faire à dispositions pour libérer le temps
+                precieux des PMEs.
+              </p>
             </div>
           </div>
           <div class="col-md-4 d-flex align-items-stretch ">
-            <div class="services-2 text-center" >
+            <div class="services-2 text-center">
               <div class="icon-wrap">
                 <div class="number d-flex align-items-center justify-content-center">
                   <span>02</span>
@@ -58,7 +59,7 @@ const Puissance = (props) => {
             </div>
           </div>
           <div class="col-md-4 d-flex align-items-stretch ">
-            <div class="services-2 text-center" >
+            <div class="services-2 text-center">
               <div class="icon-wrap">
                 <div class="number d-flex align-items-center justify-content-center">
                   <span>03</span>

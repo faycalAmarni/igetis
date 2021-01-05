@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../styles/css/apropos.css';
 const Apropos = (props) => {
   return (
@@ -30,9 +31,11 @@ const Apropos = (props) => {
               booster votre activité sur les différents médias.
             </p>
             <div className="text-center">
-              <a className="btn" href>
-                À PROPOS
-              </a>
+              <Link to="/About">
+                <a className="btn" href>
+                  À PROPOS
+                </a>
+              </Link>
             </div>
           </div>
         </div>
