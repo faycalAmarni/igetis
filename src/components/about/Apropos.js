@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../../styles/css/apropos.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 const Apropos = (props) => {
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
-    <section className="appropos_section">
+    <section id="apropos" className="appropos_section">
       <div className="container">
         <div class="about">
-          <div className="section-header appropos_header">
+          <div className="section-header appropos_header" data-aos="fade-up">
             <h2>À PROPOS D'IGETIS WEB</h2>
             <span class="section-divider"></span>
             <h4>
@@ -13,7 +19,7 @@ const Apropos = (props) => {
               internet
             </h4>
           </div>
-          <div className="about-text apropos_content">
+          <div className="about-text apropos_content" data-aos="fade-up">
             <p style={{ alignItems: 'center' }}>
               L’effectif de notre société grandit de jour en jour afin de vous
               proposer toujours plus de possibilités et de rester à l’écoute de

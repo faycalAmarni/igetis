@@ -71,35 +71,30 @@ class Header extends React.Component {
                 <NavLink to="/">
                   <a
                     className={
-                      'nav-item nav-link ' + (path == '/' ? 'active' : '')
+                      'nav-item nav-link ' + (path == '/' ? '' : '')
                     }
                   >
                     Home
                   </a>
                 </NavLink>
-                <NavLink to="/About">
                   <a
                     className={
                       'nav-item nav-link ' + (path == '/About' ? 'active' : '')
                     }
+                    href="#apropos"
                   >
                     À PROPOS
                   </a>
-                </NavLink>
-                <NavLink to="/Prestation">
                   <a
                     className={
                       'nav-item nav-link ' +
                       (path == '/Prestation' ? 'active' : '')
                     }
-
+                    href="#prestation"
                   >
                     PRESTATIONS
                   </a>
-                </NavLink>
-                <NavLink to="/NotFoundPage">
-                  <a className="nav-item nav-link">RÉFÉRENCES</a>
-                </NavLink>
+                  <a className="nav-item nav-link" href="#reference">RÉFÉRENCES</a>
                 <NavLink to="/Faq">
                   <a
                     className={
@@ -109,7 +104,7 @@ class Header extends React.Component {
                     FAQ
                   </a>
                 </NavLink>
-                
+
                   <a
                     href="#contact"
                     className={
@@ -119,7 +114,7 @@ class Header extends React.Component {
                   >
                     Contact
                   </a>
-              
+
               </div>
             </div>
           </div>

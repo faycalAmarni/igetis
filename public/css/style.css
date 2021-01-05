@@ -172,12 +172,15 @@ a:focus {
 /*********** Nav Bar CSS **********/
 /**********************************/
 .navbar {
+
     position: relative;
     transition: .5s;
     z-index: 999;
 }
 
 .navbar.nav-sticky {
+    position: fixed ;
+    top: 0 ;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     transition: .5s;
@@ -223,7 +226,7 @@ a:focus {
         position: absolute;
         width: 100%;
         top: 35px;
-        padding: 20px 60px;
+        padding: 10px 60px;
         background: rgba(9, 42, 73, .2)!important;
         z-index: 9;
     }
