@@ -19,7 +19,7 @@ const Testimonial = () => {
       AOS.refresh();
     }, []);
   return (
-    <section class="testimonial" >
+    <section class="testimonial all-screen" >
       <div class="container" data-aos="fade-up">
         <div className="section-header">
           <h2 style={{color: "#FFFFFF"}}>What our users say</h2>

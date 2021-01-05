@@ -1,10 +1,7 @@
 .appropos_section{
-      display: flex !important;
-      flex-flow: column !important;
-      height: 100% !important;
+     height: 100vh;
      line-height: 40px;
      font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-     background-color: #405F9F
 }
 
 .appropos_header h2{
@@ -18,7 +15,6 @@
     /* margin-top: 20px; */
     line-height: 24px;
     font-weight: 400;
-    font-style: italic;
     opacity: 0.5;
 
 }
@@ -27,8 +23,8 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    margin-top: 48px;
-    margin-bottom: 64px;
+    margin-top: 58px;
+    margin-bottom: 74px;
 }
 
 .apropos_content p{

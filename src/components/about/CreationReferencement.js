@@ -14,9 +14,17 @@ const CreationReferencement = () => {
   return (
     <div>
       <section id="advanced-features">
-        <div class="features-row section-bg site">
+        <div class="features-row section-shaped site" >
+          <div className="shape shape-style-1 shape-default">
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
           <div class="container">
-            <div class="row">
+            <div class="row ">
               <div class="col-12" >
                 <img
                   class="advanced-feature-img-right aos-init aos-animate"

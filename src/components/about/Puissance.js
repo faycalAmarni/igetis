@@ -10,6 +10,7 @@ const Puissance = (props) => {
   }, []);
   return (
     <section class="ftco-section" data-aos="fade-up"  data-aos-duration="1000">
+
       <div class="container">
         <div
           class="section-header"

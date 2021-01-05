@@ -10,10 +10,18 @@ const Pack = (props) => {
           AOS.refresh();
         }, []);
   return (
-      <div id="packs">
-          <div style={{backgroundColor: "#405F9F"}}>
+      <section id="packs" class="all-screen">
 
-              <div class="  slider-height2">
+          <div className="section-shaped">
+              <div className="shape shape-style-1 shape-default">
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+              <div class="slider-height2">
                   <div className="section-header " data-aos="fade-up">
                     <h2 style={{color: "#F8F9FE", paddingTop: 25 }}>NOS PACKS</h2>
                     <span class="section-divider"></span>
@@ -59,7 +67,7 @@ const Pack = (props) => {
                   </div>
               </div>
           </section>
-    </div>
+    </section>
   )
 }
 
