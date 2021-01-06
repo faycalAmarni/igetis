@@ -25,7 +25,7 @@ function Caros() {
           <h1>IGETIS</h1>
 
           <p class="tagline">
-            Création de site internet dynamique et référencement.
+            Création de site internet dynamique et référencement
           </p>
           <a class="btn" href="#contact">
             <i class="fa fa-email"></i>NOUS CONTACTER
