@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/igetis/static/css/main.7633eff8.chunk.css",
+    "main.css": "/igetis/static/css/main.cd3ff362.chunk.css",
     "main.js": "/igetis/static/js/main.eeff36d6.chunk.js",
     "main.js.map": "/igetis/static/js/main.eeff36d6.chunk.js.map",
     "runtime-main.js": "/igetis/static/js/runtime-main.588639fd.js",
@@ -12,7 +12,7 @@
     "static/js/3.c45501e6.chunk.js.map": "/igetis/static/js/3.c45501e6.chunk.js.map",
     "index.html": "/igetis/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/igetis/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.7633eff8.chunk.css.map": "/igetis/static/css/main.7633eff8.chunk.css.map",
+    "static/css/main.cd3ff362.chunk.css.map": "/igetis/static/css/main.cd3ff362.chunk.css.map",
     "static/js/2.0763df4d.chunk.js.LICENSE.txt": "/igetis/static/js/2.0763df4d.chunk.js.LICENSE.txt",
     "static/media/1.98b0f9ac.jpg": "/igetis/static/media/1.98b0f9ac.jpg",
     "static/media/2.dd6fa7e6.jpg": "/igetis/static/media/2.dd6fa7e6.jpg",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.588639fd.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.0763df4d.chunk.js",
-    "static/css/main.7633eff8.chunk.css",
+    "static/css/main.cd3ff362.chunk.css",
     "static/js/main.eeff36d6.chunk.js"
   ]
 }
