@@ -3,8 +3,8 @@ import AOS from 'aos';
 import '../../styles/css/creation.css';
 import 'aos/dist/aos.css';
 
-import productImg from '../../assets/img/advanced-feature-1.jpg';
-import referenceImg from '../../assets/img/recherche-google.jpg'
+import productImg from '../../assets/img/Personal.svg';
+import referenceImg from '../../assets/img/search.svg'
 
 const CreationReferencement = () => {
   useEffect(() => {
@@ -24,13 +24,15 @@ const CreationReferencement = () => {
             <span />
           </div>
           <div class="container">
-            <div class="row ">
+            <div class="row">
               <div class="col-12" >
                 <img
                   class="advanced-feature-img-right aos-init aos-animate"
                   src={productImg}
                   alt=""
                   data-aos="fade-up"
+                  width="600"
+                  height="360"
                 />
               <div data-aos="fade-up" class="aos-init aos-animate">
                   <h2>
@@ -69,6 +71,9 @@ const CreationReferencement = () => {
                   src={referenceImg}
                   alt=""
                   data-aos="fade-up"
+                  width="600"
+                  height="360"
+                  style={{marginTop: 20}}
                 />
               <div data-aos="fade-up" class="aos-init">
                   <h2>RÉFÉRENCEMENT LOCAL</h2>

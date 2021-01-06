@@ -1,5 +1,5 @@
 .appropos_section{
-     height: 100vh;
+     height: calc(100vh - calc(100vh - 100%)) !important;
      line-height: 40px;
      font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
