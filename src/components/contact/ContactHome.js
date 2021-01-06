@@ -19,7 +19,7 @@ const ContactHome = (props) => {
     AOS.refresh();
   }, []);
   return (
-    <div className="container contact" id="contact">
+    <section className="container contact" id="contact">
       <div className="section-header" data-aos="fade-up">
         <h2>Contactez-nous pour toute information</h2>
         <span class="section-divider"></span>
@@ -237,7 +237,7 @@ const ContactHome = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

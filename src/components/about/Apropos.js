@@ -1,21 +1,30 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Link } from 'react-router-dom';
+=======
+import React, {useEffect} from 'react';
+>>>>>>> origin/packs
 import '../../styles/css/apropos.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 const Apropos = (props) => {
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
-    <section className="appropos_section">
+    <section id="apropos" className="appropos_section">
       <div className="container">
         <div class="about">
-          <div className="section-header appropos_header">
-            <h2>À PROPOS DE IGETIS</h2>
+          <div className="section-header appropos_header" data-aos="fade-up">
+            <h2>À PROPOS D'IGETIS WEB</h2>
             <span class="section-divider"></span>
-            <hr />
             <h4>
               Agence de communication spécialisée dans la création de site
               internet
             </h4>
           </div>
-          <div className="about-text apropos_content">
+          <div className="about-text apropos_content" data-aos="fade-up">
             <p style={{ alignItems: 'center' }}>
               L’effectif de notre société grandit de jour en jour afin de vous
               proposer toujours plus de possibilités et de rester à l’écoute de
@@ -30,6 +39,7 @@ const Apropos = (props) => {
               accompagnons tout au long de votre projet et vous proposons de
               booster votre activité sur les différents médias.
             </p>
+<<<<<<< HEAD
             <div className="text-center">
               <Link to="/About">
                 <a className="btn" href>
@@ -37,6 +47,9 @@ const Apropos = (props) => {
                 </a>
               </Link>
             </div>
+=======
+
+>>>>>>> origin/packs
           </div>
         </div>
       </div>

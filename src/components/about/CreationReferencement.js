@@ -41,8 +41,8 @@ const CreationReferencement = () => {
                     sunt in culpa qui officia deserunt mollit anim id est
                     laborum.
                   </p> */}
-                  <a data-aos="fade-up" className="btn">
-                    NOS PRESTATIONS
+                  <a data-aos="fade-up" className="btn" href="#packs">
+                    NOS PACKS
                   </a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const CreationReferencement = () => {
                     ea commodo consequat. Duis aute irure dolor in reprehenderit
                     in voluptate velit esse cillum.
                   </p> */}
-                  <a data-aos="fade-up" className="btn" href>
+                  <a data-aos="fade-up" className="btn" href="#prestation">
                     NOS PRESTATIONS
                   </a>
                 </div>

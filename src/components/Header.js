@@ -86,28 +86,26 @@ class Header extends React.Component {
                     </a>
                   </div>
                 </NavLink>
-                <NavLink to="/About">
-                  <a
-                    className={
-                      'nav-item nav-link ' + (path == '/About' ? 'active' : '')
-                    }
-                  >
-                    À PROPOS
-                  </a>
-                </NavLink>
-                <NavLink to="/Prestation">
-                  <a
-                    className={
-                      'nav-item nav-link ' +
-                      (path == '/Prestation' ? 'active' : '')
-                    }
-                  >
-                    PRESTATIONS
-                  </a>
-                </NavLink>
-                <NavLink to="/NotFoundPage">
-                  <a className="nav-item nav-link">RÉFÉRENCES</a>
-                </NavLink>
+                <a
+                  className={
+                    'nav-item nav-link ' + (path == '/About' ? 'active' : '')
+                  }
+                  href="#apropos"
+                >
+                  À PROPOS
+                </a>
+                <a
+                  className={
+                    'nav-item nav-link ' +
+                    (path == '/Prestation' ? 'active' : '')
+                  }
+                  href="#prestation"
+                >
+                  PRESTATIONS
+                </a>
+                <a className="nav-item nav-link" href="#reference">
+                  RÉFÉRENCES
+                </a>
                 <NavLink to="/Faq">
                   <a
                     className={

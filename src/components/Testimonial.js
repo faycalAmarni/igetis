@@ -19,7 +19,7 @@ const Testimonial = () => {
       AOS.refresh();
     }, []);
   return (
-    <div class="testimonial" >
+    <section class="testimonial" >
       <div class="container" data-aos="fade-up">
         <div className="section-header">
           <h2 style={{color: "#FFFFFF"}}>What our users say</h2>
@@ -86,7 +86,7 @@ const Testimonial = () => {
 
         </OwlCarousel>
       </div>
-    </div>
+    </section>
   );
 };
 

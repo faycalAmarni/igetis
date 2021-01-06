@@ -16,11 +16,16 @@ const NosPrestation = (props) => {
     AOS.refresh();
   }, []);
   return (
+<<<<<<< HEAD
     <section
       class="team-area section-padding10"
       style={{ marginTop: 50, marginBottom: 40 }}
     >
       <div>
+=======
+    <section id='prestation' class="team-area section-padding10 " style={{marginTop: 50, marginBottom: 40}}>
+      <div >
+>>>>>>> origin/packs
         <div className="section-header" data-aos="fade-up">
           <h2>NOS PRESTATIONS</h2>
           <span class="section-divider"></span>

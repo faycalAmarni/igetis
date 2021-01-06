@@ -31,11 +31,11 @@ function Caros() {
               <h1 >IGETIS</h1>
               <p>Création de site internet dynamique et référencement</p>
               <div class="carousel-btn" data-aos="fade-up">
-                <Link to="/Contact">
-                  <a class="btn" href="" >
+                
+                  <a class="btn" href="#contact" >
                     <i class="fa fa-email"></i>NOUS CONTACTER
                   </a>
-                </Link>
+              
               </div>
             </div>
           </div>

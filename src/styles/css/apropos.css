@@ -1,6 +1,7 @@
 .appropos_section{
-
-    margin-bottom:100px;
+      display: flex !important;
+      flex-flow: column !important;
+      height: 100% !important;
      line-height: 40px;
      font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
      background-color: #405F9F
@@ -8,7 +9,7 @@
 
 .appropos_header h2{
     color: #FFFFFF !important;
-    padding-top: 25px;
+    margin-top: 64px;
 }
 
 .appropos_header h4{
@@ -19,18 +20,21 @@
     font-weight: 400;
     font-style: italic;
     opacity: 0.5;
+
 }
 
 .apropos_content{
-    width: 80%;
+    width: 90%;
     margin: auto;
-    /* text-align: center; */
-    align-items: center;
-
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 64px;
 }
 
 .apropos_content p{
-    color :#FFFFFF;
+    color :#F8F9FE !important;
+    font-size: 22px !important;
+    font-family: "proxima" serif sans-serif;
 }
 
 .apropos_content a{
