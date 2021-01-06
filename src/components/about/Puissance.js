@@ -1,5 +1,5 @@
 import React, { useEffect }  from 'react';
-import visibilite from '../../assets/img/icon-2.png';
+import visibilite from '../../assets/img/icon/timekeeper.png';
 import analyse from '../../assets/img/icon-3.png';
 import ciblage from '../../assets/img/icon-9.png';
 import AOS from 'aos';

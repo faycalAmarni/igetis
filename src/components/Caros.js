@@ -4,6 +4,7 @@ import meeting_3 from '../assets/img/meeting-3.jpg';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import { useState, useEffect } from 'react';
+import "../styles/css/landing.css"
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -13,7 +14,7 @@ function Caros() {
       AOS.refresh();
     }, []);
   return (
-      <section class="car" style={{backgroundPosition: 'center', backgroundImage: `url(${meeting_2})` , overflow: 'hidden', backgroundSize: 'cover', opacity: 0.5}}>
+      <section class="hero car">
           <div class="car-text">
             <h1 >IGETIS</h1>
             <p>Création de site internet dynamique et référencement</p>

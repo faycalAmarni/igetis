@@ -2,6 +2,7 @@ import {
   Switch,
   withRouter,
   Route,
+  Redirect,
   BrowserRouter as Router,
 } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
@@ -15,6 +16,7 @@ import NotFoundPage from './components/NotFoundPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Legale from "./components/Legale"
+import GoTop from 'components/statics/GoTop';
 
 function App() {
   return (
@@ -29,9 +31,10 @@ function App() {
             <Route exact path="/Faq" component={Faq} />
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/Legale" component={Legale} />
-            <Route path="/" component={NotFoundPage} />
+            <Redirect to="/" />
           </Switch>
           <Footer />
+          <GoTop />
         </ScrollToTop>
       </Router>
     </div>
