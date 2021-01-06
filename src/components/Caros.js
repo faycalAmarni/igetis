@@ -1,7 +1,6 @@
 import meeting_1 from '../assets/img/meeting-1.jpg';
 import meeting_2 from '../assets/img/meeting-2.jpg';
 import meeting_3 from '../assets/img/meeting-3.jpg';
-
 import { Link } from 'react-router-dom';
 // import OwlCarousel from 'react-owl-carousel';
 import { useState, useEffect } from 'react';

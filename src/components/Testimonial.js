@@ -19,10 +19,10 @@ const Testimonial = () => {
       AOS.refresh();
     }, []);
   return (
-    <section class="testimonial" >
+    <section class="testimonial all-screen" >
       <div class="container" data-aos="fade-up">
         <div className="section-header">
-          <h2 style={{color: "#FFFFFF"}}>What our users say</h2>
+          <h2 >What our users say</h2>
           <span class="section-divider"></span>
         </div>
       </div>
@@ -31,7 +31,8 @@ const Testimonial = () => {
         <OwlCarousel
           class="testimonials-carousel owl-carousel"
           items={1}
-
+          margin={10}
+          autoWidth={false}
           // margin={3}
           animateOut={'fadeOut'}
           animateIn={'fadeIn'}
@@ -47,40 +48,43 @@ const Testimonial = () => {
         >
           <div class="testimonial-item" style={{alignItems: 'center'}}>
             <img src={img1} alt="Image" />
+            <h2>Client Name</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat Vivamus egestas eleifend dui ac consequat
             </p>
-            <h2>Client Name</h2>
+
           </div>
 
           <div class="testimonial-item">
             <img src={img2} alt="Image" />
+            <h2>Client Name</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
             </p>
-            <h2>Client Name</h2>
+
 
           </div>
 
           <div class="testimonial-item">
             <img src={img3} alt="Image" />
+            <h2>Client Name</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
             </p>
-            <h2>Client Name</h2>
+
 
           </div>
 
           <div class="testimonial-item">
             <img src={img4} alt="Image" />
+            <h2>Client Name</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ut mollis mauris. Vivamus egestas eleifend dui ac consequat
             </p>
-            <h2>Client Name</h2>
 
           </div>
 

@@ -9,7 +9,15 @@ const Apropos = (props) => {
     AOS.refresh();
   }, []);
   return (
-    <section id="apropos" className="appropos_section">
+    <section id="apropos" className="appropos_section section-shaped">
+        <div className="shape shape-style-1 shape-default">
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
       <div className="container">
         <div class="about">
           <div className="section-header appropos_header" data-aos="fade-up">

@@ -8,6 +8,7 @@ import Apropos from './about/Apropos';
 import Testimonial from './Testimonial';
 import CreationReferencement from './about/CreationReferencement';
 import Referencement from './referencement/Referencement';
+import Carousel from './Carousel';
 
 class Home extends React.Component {
   render() {
@@ -19,8 +20,8 @@ class Home extends React.Component {
         <Pack />
         <NosPrestation />
         <Apropos />
-        <Referencement />
         <Testimonial />
+        <Carousel />
         <ContactHome />
       </div>
     );
