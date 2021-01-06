@@ -20,11 +20,8 @@ class Home extends React.Component {
         <NosPrestation />
         <Apropos />
         <Referencement />
-<<<<<<< HEAD
-=======
         <Testimonial />
         <ContactHome />
->>>>>>> origin/packs
       </div>
     );
   }

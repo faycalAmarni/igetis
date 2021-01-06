@@ -56,10 +56,7 @@ function App() {
               <Route exact path="/Faq" component={Faq} />
               <Route exact path="/Contact" component={Contact} />
               <Route exact path="/Legale" component={Legale} />
-              <Route exact path="*" component={NotFoundPage} />
-              <Route exact path="*/*" component={NotFoundPage} />
-              {/* <Route path="/" component={NotFoundPage} /> */}
-              {/* <Redirect to="/error" /> */}
+              <Redirect to="/" />
             </Switch>
           </Suspense>
           <Footer />

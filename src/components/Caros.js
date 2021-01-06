@@ -3,99 +3,36 @@ import meeting_2 from '../assets/img/meeting-2.jpg';
 import meeting_3 from '../assets/img/meeting-3.jpg';
 
 import { Link } from 'react-router-dom';
-import OwlCarousel from 'react-owl-carousel';
+// import OwlCarousel from 'react-owl-carousel';
 import { useState, useEffect } from 'react';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-
+import '../styles/css/landingsection.css';
 function Caros() {
-
-    useEffect(() => {
-      AOS.init();
-      AOS.refresh();
-    }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
-    <div class="carousel">
-      <div>
-        <OwlCarousel
-          class="testimonials-carousel owl-carousel"
-          items={1}
-        >
-          <div class="carousel-item">
-            <div class="carousel-img">
-              <img src={meeting_2} alt="temp" />
-            </div>
+    <section class="hero left">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12"></div>
+        </div>
 
-            <div class="carousel-text">
-              <h1 >IGETIS</h1>
-              <p>Création de site internet dynamique et référencement</p>
-              <div class="carousel-btn" data-aos="fade-up">
-                
-                  <a class="btn" href="#contact" >
-                    <i class="fa fa-email"></i>NOUS CONTACTER
-                  </a>
-              
-              </div>
-            </div>
-          </div>
+        <div class="col-md-12">
+          <h1>IGETIS</h1>
 
-          {/* <div class="carousel-item">
-            <div class="carousel-img">
-              <img src={meeting_2} alt="temp" />
-            </div>
-
-            <div class="carousel-text">
-              <h1>IGETIS Web 2</h1>
-              <p>Création de site internet dynamique et référencement</p>
-              <div class="carousel-btn">
-                <Link to="/Contact">
-                  <a class="btn" href="">
-                    <i class="fa fa-email"></i>Nous contacter
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div> */}
-          {/*
-          <div class="carousel-item">
-            <div class="carousel-img">
-              <img src={meeting_3} alt="temp" />
-            </div>
-
-            <div class="carousel-text">
-              <h1>IGETIS Web 3</h1>
-              <p>Création de site internet dynamique et référencement</p>
-              <div class="carousel-btn">
-                <Link to="/Contact">
-                  <a class="btn" href="">
-                    <i class="fa fa-email"></i>Nous contacter
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div class="carousel-item">
-            <div class="carousel-img">
-              <img src={meeting_1} alt="temp" />
-            </div>
-
-            <div class="carousel-text">
-              <h1>IGETIS Web 4</h1>
-              <p>Création de site internet dynamique et référencement</p>
-              <div class="carousel-btn">
-                <Link to="/Contact">
-                  <a class="btn" href="">
-                    <i class="fa fa-email"></i>Nous contacter
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div> */}
-        </OwlCarousel>
+          <p class="tagline">
+            Création de site internet dynamique et référencement.
+          </p>
+          <a class="btn" href="#contact">
+            <i class="fa fa-email"></i>NOUS CONTACTER
+          </a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

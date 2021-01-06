@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Background from "../../assets/img/breadcumb.png"
+import Background from '../../assets/img/breadcumb.png';
 import NosPrestation from './NosPrestation';
 import '../../styles/css/prestation.css';
 import AOS from 'aos';
@@ -29,12 +29,11 @@ const Prestation = (props) => {
       >
         <div className="overlay"></div>
 
-          <div className="row no-gutters slider-text align-items-end ">
-            <div className="col-md-8">
-              <h1 className="headerH1" >NOS SOLUTIONS</h1>
-            </div>
+        <div className="row no-gutters slider-text align-items-end ">
+          <div className="col-md-8">
+            <h1 className="headerH1">NOS SOLUTIONS</h1>
           </div>
-
+        </div>
       </section>
 
       {/* new creation referencenement section */}

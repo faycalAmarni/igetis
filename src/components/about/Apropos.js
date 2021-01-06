@@ -1,17 +1,13 @@
-<<<<<<< HEAD
-import React from 'react';
 import { Link } from 'react-router-dom';
-=======
-import React, {useEffect} from 'react';
->>>>>>> origin/packs
+import React, { useEffect } from 'react';
 import '../../styles/css/apropos.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 const Apropos = (props) => {
-    useEffect(() => {
-      AOS.init();
-      AOS.refresh();
-    }, []);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section id="apropos" className="appropos_section">
       <div className="container">
@@ -39,17 +35,6 @@ const Apropos = (props) => {
               accompagnons tout au long de votre projet et vous proposons de
               booster votre activité sur les différents médias.
             </p>
-<<<<<<< HEAD
-            <div className="text-center">
-              <Link to="/About">
-                <a className="btn" href>
-                  À PROPOS
-                </a>
-              </Link>
-            </div>
-=======
-
->>>>>>> origin/packs
           </div>
         </div>
       </div>

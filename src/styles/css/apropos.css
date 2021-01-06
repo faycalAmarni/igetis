@@ -1,10 +1,11 @@
 .appropos_section{
       display: flex !important;
       flex-flow: column !important;
-      height: 100% !important;
+      height: 100vh ;
      line-height: 40px;
      font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
      background-color: #405F9F
+    
 }
 
 .appropos_header h2{
