@@ -1971,3 +1971,13 @@ section{
     border-radius: 0 !important;
     transition: .3s;
 }
+
+
+.faqnav a {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.faqnav .nav-pills .nav-link.active{
+  color: #fff !important;
+}
