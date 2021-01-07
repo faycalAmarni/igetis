@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/igetis/static/css/main.30cb7341.chunk.css",
-    "main.js": "/igetis/static/js/main.34fd2c6f.chunk.js",
-    "main.js.map": "/igetis/static/js/main.34fd2c6f.chunk.js.map",
+    "main.css": "/igetis/static/css/main.019c9263.chunk.css",
+    "main.js": "/igetis/static/js/main.e26dd441.chunk.js",
+    "main.js.map": "/igetis/static/js/main.e26dd441.chunk.js.map",
     "runtime-main.js": "/igetis/static/js/runtime-main.cdde8049.js",
     "runtime-main.js.map": "/igetis/static/js/runtime-main.cdde8049.js.map",
     "static/css/2.ec02d681.chunk.css": "/igetis/static/css/2.ec02d681.chunk.css",
@@ -12,25 +12,25 @@
     "static/js/3.49cb9614.chunk.js.map": "/igetis/static/js/3.49cb9614.chunk.js.map",
     "index.html": "/igetis/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/igetis/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.30cb7341.chunk.css.map": "/igetis/static/css/main.30cb7341.chunk.css.map",
+    "static/css/main.019c9263.chunk.css.map": "/igetis/static/css/main.019c9263.chunk.css.map",
     "static/js/2.7a1310e2.chunk.js.LICENSE.txt": "/igetis/static/js/2.7a1310e2.chunk.js.LICENSE.txt",
     "static/media/404-error-page.5a9d7849.jpg": "/igetis/static/media/404-error-page.5a9d7849.jpg",
     "static/media/E-commerce.ec5f1297.png": "/igetis/static/media/E-commerce.ec5f1297.png",
     "static/media/Personal.57dc8950.svg": "/igetis/static/media/Personal.57dc8950.svg",
     "static/media/breadcumb.c317baf2.png": "/igetis/static/media/breadcumb.c317baf2.png",
     "static/media/calendar.e40bf425.jpg": "/igetis/static/media/calendar.e40bf425.jpg",
+    "static/media/google-408194_640.119f2dab.png": "/igetis/static/media/google-408194_640.119f2dab.png",
     "static/media/googleColor.784e0a4a.png": "/igetis/static/media/googleColor.784e0a4a.png",
     "static/media/internet1.3b005426.png": "/igetis/static/media/internet1.3b005426.png",
     "static/media/meeting-1.5cb74e54.jpg": "/igetis/static/media/meeting-1.5cb74e54.jpg",
-    "static/media/landing.css": "/igetis/static/media/meeting-2.97f393c1.jpg",
     "static/media/meeting-3.0d21ca94.jpg": "/igetis/static/media/meeting-3.0d21ca94.jpg",
     "static/media/prestashopColor.07fee67c.png": "/igetis/static/media/prestashopColor.07fee67c.png",
     "static/media/print.b5ef31d4.svg": "/igetis/static/media/print.b5ef31d4.svg",
     "static/media/ref1.9f39677e.jpg": "/igetis/static/media/ref1.9f39677e.jpg",
     "static/media/ref2.00f59afe.jpg": "/igetis/static/media/ref2.00f59afe.jpg",
-    "static/media/search.1db4a5db.svg": "/igetis/static/media/search.1db4a5db.svg",
     "static/media/services1.317ad7fa.svg": "/igetis/static/media/services1.317ad7fa.svg",
     "static/media/vitrine.36953cf6.png": "/igetis/static/media/vitrine.36953cf6.png",
+    "static/media/landing.css": "/igetis/static/media/website.50e14af0.jpg",
     "static/media/wordpress1.6f4ec08c.png": "/igetis/static/media/wordpress1.6f4ec08c.png",
     "static/media/wordpressColor.8c9c5f60.png": "/igetis/static/media/wordpressColor.8c9c5f60.png"
   },
@@ -38,7 +38,7 @@
     "static/js/runtime-main.cdde8049.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.7a1310e2.chunk.js",
-    "static/css/main.30cb7341.chunk.css",
-    "static/js/main.34fd2c6f.chunk.js"
+    "static/css/main.019c9263.chunk.css",
+    "static/js/main.e26dd441.chunk.js"
   ]
 }
