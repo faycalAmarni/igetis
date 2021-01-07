@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/igetis/static/css/main.30cb7341.chunk.css",
-    "main.js": "/igetis/static/js/main.27ca9adf.chunk.js",
-    "main.js.map": "/igetis/static/js/main.27ca9adf.chunk.js.map",
+    "main.js": "/igetis/static/js/main.73aee46d.chunk.js",
+    "main.js.map": "/igetis/static/js/main.73aee46d.chunk.js.map",
     "runtime-main.js": "/igetis/static/js/runtime-main.cdde8049.js",
     "runtime-main.js.map": "/igetis/static/js/runtime-main.cdde8049.js.map",
     "static/css/2.ec02d681.chunk.css": "/igetis/static/css/2.ec02d681.chunk.css",
@@ -39,6 +39,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.b496f355.chunk.js",
     "static/css/main.30cb7341.chunk.css",
-    "static/js/main.27ca9adf.chunk.js"
+    "static/js/main.73aee46d.chunk.js"
   ]
 }
