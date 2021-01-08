@@ -4,7 +4,7 @@ import '../../styles/css/creation.css';
 import 'aos/dist/aos.css';
 
 import productImg from '../../assets/img/Personal.svg';
-import referenceImg from '../../assets/img/search.svg'
+import referenceImg from '../../assets/img/recherche-google.jpg'
 
 const CreationReferencement = () => {
   useEffect(() => {

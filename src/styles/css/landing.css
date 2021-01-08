@@ -4,8 +4,10 @@
 .hero {
     display: table;
     position: relative;
-    background-image: url(../../assets/img/meeting-2.jpg);
+    background-image: url(../../assets/img/meeting-3.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 150px 0;
     color: #fff;
     width: 100%;

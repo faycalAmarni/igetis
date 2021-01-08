@@ -16,8 +16,9 @@
 
 */
 import React from "react";
-import Image1 from '../assets/img/img-1-1200x1000.jpg';
-import Image2 from '../assets/img/img-2-1200x1000.jpg';
+import Image1 from '../assets/img/reference1.jpg';
+import Image2 from '../assets/img/reference2.jpg';
+import Image3 from '../assets/img/reference3.jpg';
 
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
@@ -34,7 +35,13 @@ const items = [
     altText: "",
     caption: "",
     header: ""
-  }
+  },
+  {
+    src: Image3,
+    altText: "",
+    caption: "",
+    header: ""
+  },
 ];
 
 class Carousel extends React.Component {

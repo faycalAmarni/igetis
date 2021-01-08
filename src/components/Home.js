@@ -9,12 +9,12 @@ import Testimonial from './Testimonial';
 import CreationReferencement from './about/CreationReferencement';
 import Referencement from './referencement/Referencement';
 import Carousel from "./Carousel"
-
+import Landing from "./Landing"
 class Home extends React.Component {
   render() {
     return (
       <div>
-        <Caros />
+        <Landing />
         <Puissance />
         <CreationReferencement />
         <Pack />

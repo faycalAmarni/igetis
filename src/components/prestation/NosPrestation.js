@@ -17,7 +17,7 @@ const NosPrestation = (props) => {
       }, []);
   return (
     <section id='prestation' class="team-area section-padding10 all-screen" >
-      <div >
+      <div class="container-fluid">
         <div className="section-header" data-aos="fade-up">
           <h2>NOS PRESTATIONS</h2>
           <span class="section-divider"></span>
