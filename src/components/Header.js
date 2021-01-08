@@ -95,15 +95,7 @@ class Header extends React.Component {
                     PRESTATIONS
                   </a>
                   <a className="nav-item nav-link" href="#reference">RÉFÉRENCES</a>
-                <NavLink to="/Faq">
-                  <a
-                    className={
-                      'nav-item nav-link ' + (path == '/Faq' ? 'active' : '')
-                    }
-                  >
-                    FAQ
-                  </a>
-                </NavLink>
+              
 
                   <a
                     href="#contact"

@@ -14,7 +14,7 @@ function Caros() {
       AOS.refresh();
     }, []);
   return (
-      <section class="hero car">
+      <div class="hero car">
           <div class="car-text">
             <h1 >IGETIS</h1>
             <p>Création de site internet dynamique et référencement</p>
@@ -24,7 +24,7 @@ function Caros() {
                 </a>
             </div>
           </div>
-      </section>
+      </div>
   );
 }
 

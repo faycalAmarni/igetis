@@ -24,7 +24,7 @@ const ContactHome = (props) => {
         <h2>Contactez-nous pour toute information</h2>
         <span class="section-divider"></span>
       </div>
-      <div className="row align-items-center" data-aos="fade-up">
+      <div className="row align-items-center" data-aos="fade-up" style={{marginLeft: 10, marginRight: 10}}>
         <div className="col-md-5">
           <div className="contact-info">
             <div className="contact-icon">
